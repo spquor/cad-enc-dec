@@ -339,6 +339,10 @@
     [
       "dda0e832-8600-4dc1-8618-a794f08ca08c",
       "Transmitter"
+    ],
+    [
+      "fd81bed5-2181-44dc-b3eb-d585065d97ad",
+      "Ethernet"
     ]
   ],
   "text_variables": {}

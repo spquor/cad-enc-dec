@@ -1260,7 +1260,7 @@
   (symbol (lib_id "power:GND") (at 193.04 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08748d2e-572d-4e88-80e7-212d67f20c9c)
-    (property "Reference" "#PWR02" (at 193.04 139.7 0)
+    (property "Reference" "#PWR05" (at 193.04 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 138.43 0)
@@ -1276,7 +1276,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1285,7 +1285,7 @@
   (symbol (lib_id "Device:R") (at 105.41 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0defca1b-eaf0-4782-a034-7702f6faba5d)
-    (property "Reference" "R13" (at 105.41 111.76 90)
+    (property "Reference" "R12" (at 105.41 111.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 118.11 90)
@@ -1302,7 +1302,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R13") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1362,7 +1362,7 @@
   (symbol (lib_id "power:GND") (at 175.26 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16082c1f-4420-461c-8358-8e32ef2d415b)
-    (property "Reference" "#PWR03" (at 175.26 64.77 0)
+    (property "Reference" "#PWR02" (at 175.26 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 63.5 0)
@@ -1378,7 +1378,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1387,7 +1387,7 @@
   (symbol (lib_id "Device:R") (at 105.41 105.41 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 198276e0-e8bc-4b2e-8a08-a568dafc1e80)
-    (property "Reference" "R10" (at 105.41 99.06 90)
+    (property "Reference" "R7" (at 105.41 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 105.41 90)
@@ -1404,7 +1404,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R10") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1413,7 +1413,7 @@
   (symbol (lib_id "Device:R") (at 105.41 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1d36ec6b-b65f-47a2-9b2a-3e721cd104a1)
-    (property "Reference" "R11" (at 105.41 104.14 90)
+    (property "Reference" "R9" (at 105.41 104.14 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 110.49 90)
@@ -1430,7 +1430,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R11") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -1439,7 +1439,7 @@
   (symbol (lib_id "Device:R") (at 105.41 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5bf9f708-7f2d-4b67-92e9-dbaff05b852a)
-    (property "Reference" "R9" (at 105.41 83.82 90)
+    (property "Reference" "R6" (at 105.41 83.82 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 90.17 90)
@@ -1456,7 +1456,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R9") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -1465,7 +1465,7 @@
   (symbol (lib_id "Device:R") (at 105.41 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6024fc20-ea76-4194-92ae-55f287633cca)
-    (property "Reference" "R12" (at 105.41 106.68 90)
+    (property "Reference" "R10" (at 105.41 106.68 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 113.03 90)
@@ -1482,7 +1482,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R12") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -1516,7 +1516,7 @@
   (symbol (lib_id "Device:R") (at 166.37 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71c91b37-7b29-4d7f-98ba-47543f2752b2)
-    (property "Reference" "R3" (at 166.37 101.6 90)
+    (property "Reference" "R8" (at 166.37 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 166.37 107.95 90)
@@ -1533,7 +1533,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R3") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1545,13 +1545,13 @@
     (property "Reference" "D4" (at 146.05 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SM712_SOT23" (at 146.05 128.27 0)
+    (property "Value" "TVS" (at 146.05 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 146.05 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf" (at 142.24 132.08 0)
+    (property "Datasheet" "" (at 142.24 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ffc9fb74-0fa5-43a6-86bb-5327b6fcfd2c))
@@ -1572,13 +1572,13 @@
     (property "Reference" "U1" (at 195.2341 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "AM26LV32xD" (at 195.2341 72.39 0)
+    (property "Value" "AM26LV32" (at 195.2341 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm" (at 218.44 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/am26lv32.pdf" (at 193.04 107.95 0)
+    (property "Datasheet" "" (at 193.04 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "7" (uuid 7a5be662-c7ea-4faa-9199-7cf3f5360851))
@@ -1609,7 +1609,7 @@
   (symbol (lib_id "Device:R") (at 166.37 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 805536cd-c61e-4019-b224-91558cf28690)
-    (property "Reference" "R2" (at 166.37 81.28 90)
+    (property "Reference" "R5" (at 166.37 81.28 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 166.37 87.63 90)
@@ -1626,7 +1626,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R2") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1660,7 +1660,7 @@
   (symbol (lib_id "power:GND") (at 123.19 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa9f2b03-4417-4e30-8148-909311c718ea)
-    (property "Reference" "#PWR05" (at 123.19 69.85 0)
+    (property "Reference" "#PWR03" (at 123.19 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 68.58 0)
@@ -1676,7 +1676,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1685,7 +1685,7 @@
   (symbol (lib_id "Device:R") (at 166.37 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad3438ef-8e72-46d4-b7a3-c9f3df658be8)
-    (property "Reference" "R4" (at 166.37 109.22 90)
+    (property "Reference" "R11" (at 166.37 109.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 166.37 115.57 90)
@@ -1702,7 +1702,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R4") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1711,7 +1711,7 @@
   (symbol (lib_id "Device:R") (at 105.41 85.09 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ae19dc7d-3650-422a-9296-3b1bd72226ea)
-    (property "Reference" "R8" (at 105.41 78.74 90)
+    (property "Reference" "R4" (at 105.41 78.74 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 85.09 90)
@@ -1728,7 +1728,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R8") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -1740,13 +1740,13 @@
     (property "Reference" "D1" (at 123.19 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SM712_SOT23" (at 123.19 52.07 0)
+    (property "Value" "TVS" (at 123.19 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 123.19 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf" (at 119.38 55.88 0)
+    (property "Datasheet" "" (at 119.38 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aeacd421-896a-44a3-b247-7278fd8d7fca))
@@ -1789,7 +1789,7 @@
   (symbol (lib_id "Device:R") (at 166.37 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceaea790-5ed3-497e-89f3-ddc54bcca89c)
-    (property "Reference" "R1" (at 166.37 73.66 90)
+    (property "Reference" "R2" (at 166.37 73.66 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 166.37 80.01 90)
@@ -1806,7 +1806,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -1815,7 +1815,7 @@
   (symbol (lib_id "power:GND") (at 123.19 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d18ce3e6-caf4-4303-a739-00f49835f23b)
-    (property "Reference" "#PWR07" (at 123.19 146.05 0)
+    (property "Reference" "#PWR06" (at 123.19 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 123.19 144.78 0)
@@ -1831,7 +1831,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1840,7 +1840,7 @@
   (symbol (lib_id "Device:R") (at 105.41 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d49e375c-354c-4134-b3bd-f4456436d586)
-    (property "Reference" "R6" (at 105.41 71.12 90)
+    (property "Reference" "R1" (at 105.41 71.12 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 77.47 90)
@@ -1857,7 +1857,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R6") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -1869,13 +1869,13 @@
     (property "Reference" "D3" (at 123.19 125.73 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SM712_SOT23" (at 123.19 128.27 0)
+    (property "Value" "TVS" (at 123.19 128.27 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 123.19 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf" (at 119.38 132.08 0)
+    (property "Datasheet" "" (at 119.38 132.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e2375ba6-663e-4bb5-907e-4775be56841d))
@@ -1893,7 +1893,7 @@
   (symbol (lib_id "power:GND") (at 146.05 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f03a0399-3807-4873-b221-69f0374f9ba8)
-    (property "Reference" "#PWR06" (at 146.05 146.05 0)
+    (property "Reference" "#PWR07" (at 146.05 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 144.78 0)
@@ -1909,7 +1909,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1918,7 +1918,7 @@
   (symbol (lib_id "Device:R") (at 105.41 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fa24b569-9180-4690-b3dd-985a9c3df648)
-    (property "Reference" "R7" (at 105.41 76.2 90)
+    (property "Reference" "R3" (at 105.41 76.2 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 105.41 82.55 90)
@@ -1935,7 +1935,7 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/f2f0e67e-a001-4635-a886-458ba47eb4f2"
-          (reference "R7") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1947,13 +1947,13 @@
     (property "Reference" "D2" (at 146.05 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SM712_SOT23" (at 146.05 52.07 0)
+    (property "Value" "TVS" (at 146.05 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 146.05 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sm712_datasheet.pdf.pdf" (at 142.24 55.88 0)
+    (property "Datasheet" "" (at 142.24 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9d1e0885-fd0c-44bb-b480-fd57b5f29302))

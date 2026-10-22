@@ -305,7 +305,7 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${KICAD7_TEMPLATE_DIR}/gost_landscape.kicad_wks",
+    "page_layout_descr_file": "${KICAD7_TEMPLATE_DIR}/gost_portrait.kicad_wks",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -321,148 +321,160 @@
       ""
     ],
     [
-      "1ddcf920-9630-4d5f-bf31-eeb8aa6bca02",
-      "Power Supply 1"
+      "7b82f1b8-f670-4c54-86aa-68b09b673554",
+      "Input Board"
     ],
     [
-      "a384e571-8f3d-49bc-942a-9caee156865f",
-      "Power Supply 2"
-    ],
-    [
-      "9af4e014-d52c-4337-b318-69a159b803e1",
-      "Ethernet 1"
-    ],
-    [
-      "0c33dc1b-d8bf-494b-9905-02f3a65d6ec6",
-      "Ethernet 2"
-    ],
-    [
-      "89c877e3-9585-4510-b310-dcd1e60248c3",
-      "Digital Input 3"
-    ],
-    [
-      "51663df1-c19b-4b22-937a-7e356ec35286",
-      "Digital Input 5"
-    ],
-    [
-      "0403abf9-0495-408c-afe9-82193f47d579",
-      "Digital Input 4"
-    ],
-    [
-      "0af0c5a3-3a5c-4c44-8d89-26655ad3bf82",
-      "Digital Input 6"
-    ],
-    [
-      "65dbfbbd-5781-4a33-9d09-f40cb40152c2",
-      "Digital Input 1"
-    ],
-    [
-      "1be909cf-e514-4127-9457-3b38ed6871c4",
-      "Digital Input 7"
-    ],
-    [
-      "4af69132-85f4-4331-8f4a-e2734fd52655",
-      "Digital Input 8"
-    ],
-    [
-      "73a9a112-2b13-45e0-9846-6d7d5c23fe7b",
-      "Digital Input 9"
-    ],
-    [
-      "d5ddf39e-f446-4bb3-803c-3c40992ae5b8",
-      "Digital Input 2"
-    ],
-    [
-      "24c29916-1b5e-4ce5-8c95-05ea3fdda743",
-      "Digital Output 7"
-    ],
-    [
-      "a4f02eca-3b93-46fa-acf6-051740bfac80",
-      "Digital Output 8"
-    ],
-    [
-      "4dee5219-647b-4d9d-a6e4-cea1d0dbe42b",
-      "Digital Output 2"
-    ],
-    [
-      "d7e713a9-78e5-490e-bf0a-fa7c7dabdbef",
-      "Digital Output 5"
-    ],
-    [
-      "4a49de36-a022-4844-a70e-786c13e1fe3d",
-      "Digital Output 9"
-    ],
-    [
-      "978e62e8-e457-41be-99b3-90d843fd67ae",
-      "Digital Output 6"
-    ],
-    [
-      "92344360-bbd5-4ea1-9f0a-18960340b42a",
-      "Digital Output 1"
-    ],
-    [
-      "5dade8c2-adf7-49b8-a4d3-d7269c7ead5d",
-      "Digital Output 4"
-    ],
-    [
-      "73f302b2-be92-4f4f-8883-c025642a19cb",
-      "Digital Output 3"
-    ],
-    [
-      "93e1db63-c38b-43d2-ba3c-0dfe20099ed9",
-      "Analog Output 1"
-    ],
-    [
-      "c4705af4-6f61-4247-98e1-c8f7bbff342e",
-      "Analog Output 2"
-    ],
-    [
-      "4f4fa3ca-d26c-469a-8efe-defd05d53334",
-      "Analog Output 3"
-    ],
-    [
-      "f4af41cf-cb77-423b-ae97-ab85a1a314a5",
-      "Analog Output 4"
-    ],
-    [
-      "b521e4c8-6928-4f6f-bb2d-871435ac90d6",
-      "Analog Output 5"
-    ],
-    [
-      "bb4b6c41-e151-4e21-8b6f-2af0baac31fd",
-      "Analog Output 6"
-    ],
-    [
-      "6aec754e-1a09-4013-9dcc-eaf34b4a6299",
-      "Analog Input 1"
-    ],
-    [
-      "04ed763c-fa4a-4a00-b73b-43854aeae6ba",
-      "Analog Input 2"
-    ],
-    [
-      "48b865f7-3ad4-4ab2-8a39-622512f3cca3",
-      "Analog Input 3"
-    ],
-    [
-      "0562ea40-d947-4895-9f9c-71efdb5c7549",
-      "Analog Input 4"
-    ],
-    [
-      "03acb586-98c9-4180-936a-eaf01854a57a",
-      "Analog Input 5"
-    ],
-    [
-      "3147f239-9a8b-459b-8889-8b3ae22f6154",
-      "Analog Input 6"
-    ],
-    [
-      "dda0e832-8600-4dc1-8618-a794f08ca08c",
+      "9d525844-2ea9-4507-bf31-0ce9d3350fdc",
       "Transmitter"
     ],
     [
-      "29ad0318-19aa-47fe-8663-e181f9281d1c",
+      "1d7e2b68-ba21-44ff-816d-e65733844278",
+      "Power Supply 1"
+    ],
+    [
+      "f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d",
+      "Ethernet 1"
+    ],
+    [
+      "0815129a-f835-434b-a91c-b449ee32428d",
+      "Output Board"
+    ],
+    [
+      "d3889094-4cbd-4fa5-86a9-266602c4833c",
       "Receiver"
+    ],
+    [
+      "459f8c95-a9a6-4544-bddf-eed3171bdaba",
+      "Power Supply 2"
+    ],
+    [
+      "ea9984c4-789d-45e6-9ac4-f6ee67efc41e",
+      "Ethernet 2"
+    ],
+    [
+      "27a43937-08d4-4f92-93fe-02e2fba5fc31",
+      "Analog Board"
+    ],
+    [
+      "b1287961-70ae-40e8-80d4-c22a6f66bc55",
+      "Digital Input 1"
+    ],
+    [
+      "fc626caa-3b04-4065-a321-22b678a46a26",
+      "Digital Input 2"
+    ],
+    [
+      "ae787155-0359-4937-abc3-63000f193173",
+      "Digital Input 3"
+    ],
+    [
+      "add025d6-6e9b-4c27-a001-12c3c6e2afb6",
+      "Digital Input 4"
+    ],
+    [
+      "7f379f48-f98c-4c25-9cef-47a997282cab",
+      "Digital Input 5"
+    ],
+    [
+      "30118354-91ac-4dfc-9c09-ef983633bbcb",
+      "Digital Input 6"
+    ],
+    [
+      "3346abb5-6c31-4405-960c-c4690b5b86e3",
+      "Digital Input 7"
+    ],
+    [
+      "04adcb1f-5f1e-4e6d-b0dc-4812ec9663af",
+      "Digital Input 8"
+    ],
+    [
+      "fb829d62-8a4d-4385-868c-839af9c267b5",
+      "Digital Input 9"
+    ],
+    [
+      "98fab6ba-a4d6-4da9-8355-aa8d30dbdfe5",
+      "Digital Output 1"
+    ],
+    [
+      "91c17a71-c419-4415-9855-58385ab51e49",
+      "Digital Output 2"
+    ],
+    [
+      "6ff26731-6873-4b99-a229-c4600e469543",
+      "Digital Output 3"
+    ],
+    [
+      "ba186acf-0522-48ac-9f05-6dd071f060dd",
+      "Digital Output 4"
+    ],
+    [
+      "96e5df02-b155-4d9e-98b5-5ee3ac8a7768",
+      "Digital Output 5"
+    ],
+    [
+      "7ee417cb-a604-4f3a-a160-3cfd039cd5e7",
+      "Digital Output 6"
+    ],
+    [
+      "75c07a0d-63c9-444e-9594-7b94c9fc638e",
+      "Digital Output 7"
+    ],
+    [
+      "8e76cdb0-9aea-465c-9d0b-75c9b90f588a",
+      "Digital Output 8"
+    ],
+    [
+      "5028a37a-ae04-4d14-9e60-83b311a1801d",
+      "Digital Output 9"
+    ],
+    [
+      "11223ce9-0f2f-45ac-86f3-7349b8d702d9",
+      "Analog Input 1"
+    ],
+    [
+      "862df1f8-dbcc-4376-8869-d20ad10f1924",
+      "Analog Input 2"
+    ],
+    [
+      "c00b740d-374c-43c7-ae09-c5b2761a0e30",
+      "Analog Input 3"
+    ],
+    [
+      "1a97bf48-f79c-4582-88af-26f493915ea3",
+      "Analog Input 4"
+    ],
+    [
+      "4522cd43-88cc-45a2-ba5c-dadd01ce750d",
+      "Analog Input 5"
+    ],
+    [
+      "36b0814c-7e57-45f0-8b66-6a68294e7a23",
+      "Analog Input 6"
+    ],
+    [
+      "c5960a4d-b326-4fc5-969b-9c1b1f1423f4",
+      "Analog Output 1"
+    ],
+    [
+      "76da820c-708e-431d-bc1a-ea0b2cf8bc86",
+      "Analog Output 2"
+    ],
+    [
+      "0853a972-14de-4ef4-8ae7-282f0f9c63f6",
+      "Analog Output 3"
+    ],
+    [
+      "2bd40e7d-39eb-4a7d-a3bf-a3e07f1c92f7",
+      "Analog Output 4"
+    ],
+    [
+      "b5656035-de07-43e0-8f85-00deeefcd2cb",
+      "Analog Output 5"
+    ],
+    [
+      "ecd9eb80-f58e-406e-9d83-16b3996a814b",
+      "Analog Output 6"
     ]
   ],
   "text_variables": {}

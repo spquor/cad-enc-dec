@@ -2014,7 +2014,7 @@
   (symbol (lib_id "power:GND") (at 156.21 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06926ad8-5581-4cad-8c8c-b586def83b6e)
-    (property "Reference" "#PWR0173" (at 156.21 149.86 0)
+    (property "Reference" "#PWR0510" (at 156.21 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 156.21 148.59 0)
@@ -2030,10 +2030,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0173") (unit 1)
+          (reference "#PWR0510") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR0910") (unit 1)
         )
       )
     )
@@ -2042,7 +2042,7 @@
   (symbol (lib_id "Device:R") (at 251.46 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07c4f1d6-2c0d-4810-999b-845439299c5d)
-    (property "Reference" "R185" (at 254 104.14 0)
+    (property "Reference" "R513" (at 254 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "270" (at 251.5406 107.2876 90)
@@ -2059,10 +2059,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R185") (unit 1)
+          (reference "R513") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R131") (unit 1)
+          (reference "R913") (unit 1)
         )
       )
     )
@@ -2071,7 +2071,7 @@
   (symbol (lib_id "Device:C") (at 227.33 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10bf09c2-a866-4745-aa6b-e0a08031b9b5)
-    (property "Reference" "C83" (at 231.14 66.04 0)
+    (property "Reference" "C506" (at 231.14 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 231.14 68.58 0)
@@ -2088,10 +2088,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C83") (unit 1)
+          (reference "C506") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C33") (unit 1)
+          (reference "C906") (unit 1)
         )
       )
     )
@@ -2100,7 +2100,7 @@
   (symbol (lib_id "Device:C") (at 207.01 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1abf8dac-d0f6-424a-9dac-17eee13fd23d)
-    (property "Reference" "C91" (at 210.82 120.65 0)
+    (property "Reference" "C509" (at 210.82 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 210.82 123.19 0)
@@ -2117,10 +2117,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C91") (unit 1)
+          (reference "C509") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C36") (unit 1)
+          (reference "C909") (unit 1)
         )
       )
     )
@@ -2129,7 +2129,7 @@
   (symbol (lib_id "Device:R") (at 116.84 127 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c4373d6-28e5-4654-acf9-fa6ed99ff5e0)
-    (property "Reference" "R195" (at 110.49 127 90)
+    (property "Reference" "R518" (at 110.49 127 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 116.84 127 90)
@@ -2146,10 +2146,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R195") (unit 1)
+          (reference "R518") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R193") (unit 1)
+          (reference "R918") (unit 1)
         )
       )
     )
@@ -2158,7 +2158,7 @@
   (symbol (lib_id "Device:R") (at 88.9 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24d10083-3a01-4fea-9cf9-7a86702a182c)
-    (property "Reference" "R25" (at 82.55 62.23 90)
+    (property "Reference" "R503" (at 82.55 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 88.9 62.23 90)
@@ -2175,10 +2175,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R25") (unit 1)
+          (reference "R503") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R120") (unit 1)
+          (reference "R903") (unit 1)
         )
       )
     )
@@ -2187,7 +2187,7 @@
   (symbol (lib_id "Device:C") (at 80.01 118.11 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 266a25ff-bdd0-4054-9511-33eec6f0f6fd)
-    (property "Reference" "C87" (at 74.93 119.38 90)
+    (property "Reference" "C507" (at 74.93 119.38 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30p" (at 74.93 121.92 90)
@@ -2204,10 +2204,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C87") (unit 1)
+          (reference "C507") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C34") (unit 1)
+          (reference "C907") (unit 1)
         )
       )
     )
@@ -2216,7 +2216,7 @@
   (symbol (lib_id "Device:C") (at 106.68 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 271fec8a-4f5e-49ae-8346-32985f67c40d)
-    (property "Reference" "C17" (at 110.49 60.96 0)
+    (property "Reference" "C501" (at 110.49 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 110.49 63.5 0)
@@ -2233,10 +2233,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C17") (unit 1)
+          (reference "C501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C28") (unit 1)
+          (reference "C901") (unit 1)
         )
       )
     )
@@ -2245,7 +2245,7 @@
   (symbol (lib_id "Device:R") (at 69.85 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e0c944c-1e77-4262-b9f8-69dccc76421b)
-    (property "Reference" "R188" (at 69.85 106.68 90)
+    (property "Reference" "R515" (at 69.85 106.68 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 69.85 113.03 90)
@@ -2262,10 +2262,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R188") (unit 1)
+          (reference "R515") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R186") (unit 1)
+          (reference "R915") (unit 1)
         )
       )
     )
@@ -2274,7 +2274,7 @@
   (symbol (lib_id "Interface_Ethernet:LAN8742A") (at 149.86 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ee9f557-18df-4bc1-9946-921b2eee5f1f)
-    (property "Reference" "U35" (at 152.0541 128.27 0)
+    (property "Reference" "U501" (at 152.0541 128.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LAN8742A" (at 152.0541 130.81 0)
@@ -2314,10 +2314,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "U35") (unit 1)
+          (reference "U501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "U16") (unit 1)
+          (reference "U901") (unit 1)
         )
       )
     )
@@ -2326,7 +2326,7 @@
   (symbol (lib_id "Device:R") (at 256.54 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e3a4a89-fa47-4d06-bde3-cd8b24c3a34c)
-    (property "Reference" "R187" (at 259.08 104.14 0)
+    (property "Reference" "R514" (at 259.08 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "270" (at 256.5998 107.393 90)
@@ -2343,10 +2343,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R187") (unit 1)
+          (reference "R514") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R132") (unit 1)
+          (reference "R914") (unit 1)
         )
       )
     )
@@ -2355,7 +2355,7 @@
   (symbol (lib_id "power:GND") (at 251.46 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e4c7894-29c7-4fb2-b0cb-d2f466c8cedc)
-    (property "Reference" "#PWR0169" (at 251.46 128.27 0)
+    (property "Reference" "#PWR0508" (at 251.46 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 127 0)
@@ -2371,10 +2371,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0169") (unit 1)
+          (reference "#PWR0508") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR0908") (unit 1)
         )
       )
     )
@@ -2383,7 +2383,7 @@
   (symbol (lib_id "Device:R") (at 180.34 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41f95097-9ec3-4e0c-b602-1d6c10a6c7d2)
-    (property "Reference" "R30" (at 182.88 74.93 0)
+    (property "Reference" "R508" (at 182.88 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "49.9" (at 180.34 78.74 90)
@@ -2400,10 +2400,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R30") (unit 1)
+          (reference "R508") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R125") (unit 1)
+          (reference "R908") (unit 1)
         )
       )
     )
@@ -2412,7 +2412,7 @@
   (symbol (lib_id "Device:R") (at 96.52 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48845931-7776-4f58-a02e-c28be63c6431)
-    (property "Reference" "R27" (at 90.17 62.23 90)
+    (property "Reference" "R505" (at 90.17 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 96.52 62.23 90)
@@ -2429,10 +2429,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R27") (unit 1)
+          (reference "R505") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R122") (unit 1)
+          (reference "R905") (unit 1)
         )
       )
     )
@@ -2441,7 +2441,7 @@
   (symbol (lib_id "Device:Crystal") (at 90.17 124.46 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54462002-ceb0-4026-8a37-eb1eee02bd4b)
-    (property "Reference" "Y1" (at 93.98 123.19 90)
+    (property "Reference" "Y501" (at 93.98 123.19 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "25MHz" (at 93.98 125.73 90)
@@ -2458,10 +2458,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "Y1") (unit 1)
+          (reference "Y501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "Y2") (unit 1)
+          (reference "Y901") (unit 1)
         )
       )
     )
@@ -2470,7 +2470,7 @@
   (symbol (lib_id "Device:R") (at 81.28 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 678f4de0-a925-4538-ae44-7a97118520d8)
-    (property "Reference" "R23" (at 74.93 62.23 90)
+    (property "Reference" "R501" (at 74.93 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "1K5" (at 81.28 62.23 90)
@@ -2487,10 +2487,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R23") (unit 1)
+          (reference "R501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R33") (unit 1)
+          (reference "R901") (unit 1)
         )
       )
     )
@@ -2499,7 +2499,7 @@
   (symbol (lib_id "power:GND") (at 121.92 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68f51180-d1c1-486a-b377-f3f89a013c8f)
-    (property "Reference" "#PWR0161" (at 121.92 80.01 0)
+    (property "Reference" "#PWR0504" (at 121.92 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 78.74 0)
@@ -2515,10 +2515,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0161") (unit 1)
+          (reference "#PWR0504") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR0904") (unit 1)
         )
       )
     )
@@ -2527,7 +2527,7 @@
   (symbol (lib_id "Device:C") (at 204.47 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a3a6eef-9fd5-4ca6-85ff-d1a2679ab192)
-    (property "Reference" "C79" (at 208.28 66.04 0)
+    (property "Reference" "C504" (at 208.28 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 208.28 68.58 0)
@@ -2544,10 +2544,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C79") (unit 1)
+          (reference "C504") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C31") (unit 1)
+          (reference "C904") (unit 1)
         )
       )
     )
@@ -2556,7 +2556,7 @@
   (symbol (lib_id "Device:R") (at 185.42 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a3d5990-18ce-4d2a-8f98-d9aec5979a85)
-    (property "Reference" "R31" (at 187.96 74.93 0)
+    (property "Reference" "R509" (at 187.96 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "49.9" (at 185.42 78.74 90)
@@ -2573,10 +2573,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R31") (unit 1)
+          (reference "R509") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R126") (unit 1)
+          (reference "R909") (unit 1)
         )
       )
     )
@@ -2585,7 +2585,7 @@
   (symbol (lib_id "power:Earth") (at 233.68 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6cbe061e-1561-4f7f-81c9-50647e54e1a0)
-    (property "Reference" "#PWR0167" (at 233.68 128.27 0)
+    (property "Reference" "#PWR0507" (at 233.68 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 233.68 125.73 0)
@@ -2601,10 +2601,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0167") (unit 1)
+          (reference "#PWR0507") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR0907") (unit 1)
         )
       )
     )
@@ -2613,7 +2613,7 @@
   (symbol (lib_id "power:GND") (at 204.47 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f4cc828-9823-43e5-b4be-33fb778d01a8)
-    (property "Reference" "#PWR0163" (at 204.47 82.55 0)
+    (property "Reference" "#PWR0505" (at 204.47 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 204.47 81.28 0)
@@ -2629,10 +2629,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0163") (unit 1)
+          (reference "#PWR0505") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR0905") (unit 1)
         )
       )
     )
@@ -2641,7 +2641,7 @@
   (symbol (lib_id "Device:R") (at 85.09 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7168a7bc-55f6-448d-85a5-5bf51e02d365)
-    (property "Reference" "R24" (at 78.74 62.23 90)
+    (property "Reference" "R502" (at 78.74 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 85.09 62.23 90)
@@ -2658,10 +2658,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R24") (unit 1)
+          (reference "R502") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R119") (unit 1)
+          (reference "R902") (unit 1)
         )
       )
     )
@@ -2670,7 +2670,7 @@
   (symbol (lib_id "Device:C") (at 215.9 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 71e7d1a0-4334-43ca-bc5f-7f8311d3b253)
-    (property "Reference" "C81" (at 219.71 66.04 0)
+    (property "Reference" "C505" (at 219.71 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 219.71 68.58 0)
@@ -2687,10 +2687,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C81") (unit 1)
+          (reference "C505") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C32") (unit 1)
+          (reference "C905") (unit 1)
         )
       )
     )
@@ -2699,7 +2699,7 @@
   (symbol (lib_id "Device:L") (at 193.04 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7bdad78f-5bc1-4f32-99a0-a65f1157aa04)
-    (property "Reference" "L5" (at 194.31 50.8 0)
+    (property "Reference" "L501" (at 194.31 50.8 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "600R@100Mhz" (at 194.31 53.34 0)
@@ -2716,10 +2716,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "L5") (unit 1)
+          (reference "L501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "L2") (unit 1)
+          (reference "L901") (unit 1)
         )
       )
     )
@@ -2728,7 +2728,7 @@
   (symbol (lib_id "Device:R") (at 69.85 95.25 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d114c3c-6564-4d55-94c2-6c6f19ef2fd6)
-    (property "Reference" "R34" (at 69.85 88.9 90)
+    (property "Reference" "R511" (at 69.85 88.9 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 69.85 95.25 90)
@@ -2745,10 +2745,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R34") (unit 1)
+          (reference "R511") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R128") (unit 1)
+          (reference "R911") (unit 1)
         )
       )
     )
@@ -2757,7 +2757,7 @@
   (symbol (lib_id "Device:R") (at 187.96 121.92 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d752ba9-156d-4353-a5b4-e7caf6f9e0ed)
-    (property "Reference" "R191" (at 181.61 121.92 90)
+    (property "Reference" "R517" (at 181.61 121.92 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 187.96 121.92 90)
@@ -2774,10 +2774,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R191") (unit 1)
+          (reference "R517") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R192") (unit 1)
+          (reference "R917") (unit 1)
         )
       )
     )
@@ -2786,7 +2786,7 @@
   (symbol (lib_id "power:GND") (at 71.12 130.81 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92da45e6-cc79-4304-a696-c97553f07cb6)
-    (property "Reference" "#PWR0171" (at 64.77 130.81 0)
+    (property "Reference" "#PWR0509" (at 64.77 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 130.81 90)
@@ -2802,10 +2802,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0171") (unit 1)
+          (reference "#PWR0509") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR0909") (unit 1)
         )
       )
     )
@@ -2814,7 +2814,7 @@
   (symbol (lib_id "Device:R") (at 69.85 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 942e8050-2622-48cb-84ee-cd4e09f9e974)
-    (property "Reference" "R32" (at 69.85 86.36 90)
+    (property "Reference" "R510" (at 69.85 86.36 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 69.85 92.71 90)
@@ -2831,10 +2831,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R32") (unit 1)
+          (reference "R510") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R127") (unit 1)
+          (reference "R910") (unit 1)
         )
       )
     )
@@ -2843,7 +2843,7 @@
   (symbol (lib_id "Device:R") (at 175.26 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9f5bf477-9851-446c-b9d3-188109e57f1b)
-    (property "Reference" "R29" (at 177.8 74.93 0)
+    (property "Reference" "R507" (at 177.8 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "49.9" (at 175.26 78.74 90)
@@ -2860,10 +2860,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R29") (unit 1)
+          (reference "R507") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R124") (unit 1)
+          (reference "R907") (unit 1)
         )
       )
     )
@@ -2872,7 +2872,7 @@
   (symbol (lib_id "Device:R") (at 69.85 100.33 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a410a3ee-a3e6-4761-b773-1ac256c1e175)
-    (property "Reference" "R130" (at 69.85 93.98 90)
+    (property "Reference" "R512" (at 69.85 93.98 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10" (at 69.85 100.33 90)
@@ -2889,10 +2889,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R130") (unit 1)
+          (reference "R512") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R129") (unit 1)
+          (reference "R912") (unit 1)
         )
       )
     )
@@ -2901,7 +2901,7 @@
   (symbol (lib_id "Device:C") (at 80.01 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5fb2e45-5d62-4911-a15a-fe2496ece69d)
-    (property "Reference" "C93" (at 74.93 127 90)
+    (property "Reference" "C510" (at 74.93 127 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "30p" (at 74.93 129.54 90)
@@ -2918,10 +2918,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C93") (unit 1)
+          (reference "C510") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C38") (unit 1)
+          (reference "C910") (unit 1)
         )
       )
     )
@@ -2930,7 +2930,7 @@
   (symbol (lib_id "power:+3V3") (at 113.03 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a8b3e8bc-ca42-46e0-a7e9-843d87d90b20)
-    (property "Reference" "#PWR062" (at 113.03 48.26 0)
+    (property "Reference" "#PWR0501" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 113.03 39.37 0)
@@ -2946,10 +2946,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR0501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0901") (unit 1)
         )
       )
     )
@@ -2958,7 +2958,7 @@
   (symbol (lib_id "Device:R") (at 92.71 62.23 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b66941e6-7f56-4291-9e96-d95298856aba)
-    (property "Reference" "R26" (at 86.36 62.23 90)
+    (property "Reference" "R504" (at 86.36 62.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 92.71 62.23 90)
@@ -2975,10 +2975,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R26") (unit 1)
+          (reference "R504") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R121") (unit 1)
+          (reference "R904") (unit 1)
         )
       )
     )
@@ -2987,7 +2987,7 @@
   (symbol (lib_id "power:+3V3") (at 193.04 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7765035-6dc9-43c5-b03f-323fe3e13d87)
-    (property "Reference" "#PWR081" (at 193.04 48.26 0)
+    (property "Reference" "#PWR0502" (at 193.04 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 193.04 39.37 0)
@@ -3003,10 +3003,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR0502") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR0902") (unit 1)
         )
       )
     )
@@ -3015,7 +3015,7 @@
   (symbol (lib_id "Connector:RJ45_Hanrun_HR911105A_Horizontal") (at 218.44 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9db3c35-b331-4a6d-be93-4ad3a2159eee)
-    (property "Reference" "J1" (at 219.71 78.74 0)
+    (property "Reference" "J501" (at 219.71 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HR911105A" (at 219.71 81.28 0)
@@ -3043,10 +3043,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "J1") (unit 1)
+          (reference "J501") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "J2") (unit 1)
+          (reference "J901") (unit 1)
         )
       )
     )
@@ -3055,7 +3055,7 @@
   (symbol (lib_id "Device:R") (at 180.34 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ca749c9b-8994-4204-8fe7-810dae4def93)
-    (property "Reference" "R189" (at 182.88 120.65 0)
+    (property "Reference" "R516" (at 182.88 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "12K1" (at 180.34 124.46 90)
@@ -3072,10 +3072,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R189") (unit 1)
+          (reference "R516") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R190") (unit 1)
+          (reference "R916") (unit 1)
         )
       )
     )
@@ -3084,7 +3084,7 @@
   (symbol (lib_id "Device:C") (at 121.92 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc1604ef-65c4-4440-b915-6db7535e556d)
-    (property "Reference" "C75" (at 125.73 60.96 0)
+    (property "Reference" "C502" (at 125.73 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 125.73 63.5 0)
@@ -3101,10 +3101,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C75") (unit 1)
+          (reference "C502") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C29") (unit 1)
+          (reference "C902") (unit 1)
         )
       )
     )
@@ -3113,7 +3113,7 @@
   (symbol (lib_id "Device:C") (at 195.58 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5ce09d1-3310-48e4-a974-bd76aa1683c1)
-    (property "Reference" "C89" (at 199.39 120.65 0)
+    (property "Reference" "C508" (at 199.39 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 199.39 123.19 0)
@@ -3130,10 +3130,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C89") (unit 1)
+          (reference "C508") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C35") (unit 1)
+          (reference "C908") (unit 1)
         )
       )
     )
@@ -3142,7 +3142,7 @@
   (symbol (lib_id "Device:R") (at 170.18 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea39167b-fda0-44f7-aaff-004845cc4e08)
-    (property "Reference" "R28" (at 172.72 74.93 0)
+    (property "Reference" "R506" (at 172.72 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "49.9" (at 170.18 78.74 90)
@@ -3159,10 +3159,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "R28") (unit 1)
+          (reference "R506") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "R123") (unit 1)
+          (reference "R906") (unit 1)
         )
       )
     )
@@ -3171,7 +3171,7 @@
   (symbol (lib_id "power:GND") (at 106.68 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed0edeb4-0b21-443a-89f9-a24586f28d0e)
-    (property "Reference" "#PWR082" (at 106.68 80.01 0)
+    (property "Reference" "#PWR0503" (at 106.68 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 106.68 78.74 0)
@@ -3187,10 +3187,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR0503") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR0903") (unit 1)
         )
       )
     )
@@ -3199,7 +3199,7 @@
   (symbol (lib_id "power:GND") (at 71.12 118.11 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ef78f2ed-694a-4b90-a6a9-20529f05312f)
-    (property "Reference" "#PWR0165" (at 64.77 118.11 0)
+    (property "Reference" "#PWR0506" (at 64.77 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 67.31 118.11 90)
@@ -3215,10 +3215,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "#PWR0165") (unit 1)
+          (reference "#PWR0506") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR0906") (unit 1)
         )
       )
     )
@@ -3227,7 +3227,7 @@
   (symbol (lib_id "Device:C") (at 134.62 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe2be7f3-3ae2-424f-9c68-9e1cb0b83b8b)
-    (property "Reference" "C77" (at 138.43 60.96 0)
+    (property "Reference" "C503" (at 138.43 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "470p" (at 138.43 63.5 0)
@@ -3244,10 +3244,10 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/f0d5083a-a3e1-4f4f-9a6a-0e69c3027d6d"
-          (reference "C77") (unit 1)
+          (reference "C503") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/ea9984c4-789d-45e6-9ac4-f6ee67efc41e"
-          (reference "C30") (unit 1)
+          (reference "C903") (unit 1)
         )
       )
     )

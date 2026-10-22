@@ -756,7 +756,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1f9687b3-83a2-409b-ba6f-cc2866b9af3f)
   )
-  (hierarchical_label "AOUT1" (shape output) (at 220.98 59.69 0) (fields_autoplaced)
+  (hierarchical_label "AIN1" (shape output) (at 220.98 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 415429d5-4154-45a8-8609-9a4b59bb445c)
   )
@@ -772,7 +772,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 82b82fa9-4720-4ed6-8464-65474626443b)
   )
-  (hierarchical_label "AOUT2" (shape output) (at 220.98 133.35 0) (fields_autoplaced)
+  (hierarchical_label "AIN2" (shape output) (at 220.98 133.35 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8e7c04e1-a030-4f9c-a2c1-0486565498cc)
   )
@@ -784,7 +784,7 @@
   (symbol (lib_id "power:GND") (at 182.88 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 060bfca6-2a02-4d74-8077-e030164a1c10)
-    (property "Reference" "#PWR014" (at 182.88 124.46 0)
+    (property "Reference" "#PWR03306" (at 182.88 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 123.19 0)
@@ -800,22 +800,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR03306") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR03006") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR03206") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR03406") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR02906") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR03106") (unit 1)
         )
       )
     )
@@ -824,7 +824,7 @@
   (symbol (lib_id "Power_Protection:CDSOT236-0504C") (at 154.94 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 07c2f6bd-3ca6-4487-b4f7-46d28f904cb0)
-    (property "Reference" "U3" (at 147.32 78.74 0)
+    (property "Reference" "U3302" (at 147.32 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CDSOT236-T12" (at 147.32 81.28 0)
@@ -845,22 +845,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "U3") (unit 1)
+          (reference "U3302") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "U11") (unit 1)
+          (reference "U3002") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "U28") (unit 1)
+          (reference "U3202") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "U31") (unit 1)
+          (reference "U3402") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "U58") (unit 1)
+          (reference "U2902") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "U61") (unit 1)
+          (reference "U3102") (unit 1)
         )
       )
     )
@@ -869,7 +869,7 @@
   (symbol (lib_id "power:GND") (at 182.88 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2eb853fa-5968-498f-b186-fb94917bbfb3)
-    (property "Reference" "#PWR09" (at 182.88 50.8 0)
+    (property "Reference" "#PWR03302" (at 182.88 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 182.88 49.53 0)
@@ -885,22 +885,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR03302") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR03002") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR03202") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR03402") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR02902") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR03102") (unit 1)
         )
       )
     )
@@ -909,7 +909,7 @@
   (symbol (lib_id "power:+5V") (at 195.58 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a8ba439-0dad-4028-8058-b694e9875a1a)
-    (property "Reference" "#PWR011" (at 195.58 107.95 0)
+    (property "Reference" "#PWR03304" (at 195.58 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 195.58 99.06 0)
@@ -925,22 +925,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR03304") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR03004") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR03204") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR03404") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR02904") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0129") (unit 1)
+          (reference "#PWR03104") (unit 1)
         )
       )
     )
@@ -949,7 +949,7 @@
   (symbol (lib_id "power:GND") (at 195.58 158.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b40018b-b825-4983-b47b-efbb63883fe0)
-    (property "Reference" "#PWR015" (at 195.58 165.1 0)
+    (property "Reference" "#PWR03307" (at 195.58 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 163.83 0)
@@ -965,22 +965,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR03307") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR03007") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR03207") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR03407") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR02907") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR03107") (unit 1)
         )
       )
     )
@@ -989,7 +989,7 @@
   (symbol (lib_id "Amplifier_Current:INA181") (at 198.12 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3c2ec8dd-cac8-4e9b-bb6b-ee7683bb5367)
-    (property "Reference" "U2" (at 208.28 55.4991 0)
+    (property "Reference" "U3301" (at 208.28 55.4991 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA600B" (at 208.28 58.0391 0)
@@ -1010,22 +1010,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "U2") (unit 1)
+          (reference "U3301") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "U9") (unit 1)
+          (reference "U3001") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "U18") (unit 1)
+          (reference "U3201") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "U30") (unit 1)
+          (reference "U3401") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "U57") (unit 1)
+          (reference "U2901") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "U60") (unit 1)
+          (reference "U3101") (unit 1)
         )
       )
     )
@@ -1034,7 +1034,7 @@
   (symbol (lib_id "Device:R") (at 124.46 57.15 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4789a5fb-7904-44ba-b5d8-4e09dd511bd4)
-    (property "Reference" "R13" (at 124.46 50.8 90)
+    (property "Reference" "R3301" (at 124.46 50.8 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 124.46 57.15 90)
@@ -1051,22 +1051,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "R13") (unit 1)
+          (reference "R3301") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "R17") (unit 1)
+          (reference "R3001") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "R35") (unit 1)
+          (reference "R3201") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "R39") (unit 1)
+          (reference "R3401") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "R43") (unit 1)
+          (reference "R2901") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "R157") (unit 1)
+          (reference "R3101") (unit 1)
         )
       )
     )
@@ -1075,7 +1075,7 @@
   (symbol (lib_id "power:GND") (at 195.58 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79392de9-5089-4cd2-843a-e04375078caa)
-    (property "Reference" "#PWR010" (at 195.58 91.44 0)
+    (property "Reference" "#PWR03303" (at 195.58 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 90.17 0)
@@ -1091,22 +1091,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR03303") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR03003") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR03203") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR03403") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR02903") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR03103") (unit 1)
         )
       )
     )
@@ -1115,7 +1115,7 @@
   (symbol (lib_id "power:+5V") (at 195.58 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81507090-b9de-4aec-a540-e0ffcd1ea2c9)
-    (property "Reference" "#PWR08" (at 195.58 34.29 0)
+    (property "Reference" "#PWR03301" (at 195.58 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 195.58 25.4 0)
@@ -1131,22 +1131,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR03301") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR03001") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR03201") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR03401") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR02901") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0123") (unit 1)
+          (reference "#PWR03101") (unit 1)
         )
       )
     )
@@ -1155,7 +1155,7 @@
   (symbol (lib_id "Device:R") (at 124.46 130.81 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f036fc2-310f-4878-98a5-be38fd97f8f3)
-    (property "Reference" "R15" (at 124.46 124.46 90)
+    (property "Reference" "R3303" (at 124.46 124.46 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 124.46 130.81 90)
@@ -1172,22 +1172,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "R15") (unit 1)
+          (reference "R3303") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "R19") (unit 1)
+          (reference "R3003") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "R37") (unit 1)
+          (reference "R3203") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "R41") (unit 1)
+          (reference "R3403") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "R155") (unit 1)
+          (reference "R2903") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "R159") (unit 1)
+          (reference "R3103") (unit 1)
         )
       )
     )
@@ -1196,7 +1196,7 @@
   (symbol (lib_id "Device:C") (at 189.23 114.3 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a71a6d49-0004-4769-828e-564a4a23a50d)
-    (property "Reference" "C3" (at 189.23 106.68 90)
+    (property "Reference" "C3302" (at 189.23 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 189.23 109.22 90)
@@ -1213,22 +1213,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "C3") (unit 1)
+          (reference "C3302") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "C5") (unit 1)
+          (reference "C3002") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "C7") (unit 1)
+          (reference "C3202") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "C22") (unit 1)
+          (reference "C3402") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "C37") (unit 1)
+          (reference "C2902") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "C50") (unit 1)
+          (reference "C3102") (unit 1)
         )
       )
     )
@@ -1237,7 +1237,7 @@
   (symbol (lib_id "Amplifier_Current:INA181") (at 198.12 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid af986b6b-c2b5-4dc7-8e97-12ea7f6b37ba)
-    (property "Reference" "U8" (at 208.28 129.1591 0)
+    (property "Reference" "U3303" (at 208.28 129.1591 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "INA600B" (at 208.28 131.6991 0)
@@ -1258,22 +1258,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "U8") (unit 1)
+          (reference "U3303") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "U15") (unit 1)
+          (reference "U3003") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "U29") (unit 1)
+          (reference "U3203") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "U32") (unit 1)
+          (reference "U3403") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "U59") (unit 1)
+          (reference "U2903") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "U62") (unit 1)
+          (reference "U3103") (unit 1)
         )
       )
     )
@@ -1282,7 +1282,7 @@
   (symbol (lib_id "Device:C") (at 189.23 40.64 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8c0b100-35ae-4d1a-8254-409716be234b)
-    (property "Reference" "C2" (at 189.23 33.02 90)
+    (property "Reference" "C3301" (at 189.23 33.02 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 189.23 35.56 90)
@@ -1299,22 +1299,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "C2") (unit 1)
+          (reference "C3301") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "C4") (unit 1)
+          (reference "C3001") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "C6") (unit 1)
+          (reference "C3201") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "C21") (unit 1)
+          (reference "C3401") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "C24") (unit 1)
+          (reference "C2901") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "C40") (unit 1)
+          (reference "C3101") (unit 1)
         )
       )
     )
@@ -1323,7 +1323,7 @@
   (symbol (lib_id "Device:R") (at 124.46 62.23 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6c6b52f-5806-4de9-bf1b-e64ee2431213)
-    (property "Reference" "R14" (at 124.46 55.88 90)
+    (property "Reference" "R3302" (at 124.46 55.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 124.46 62.23 90)
@@ -1340,22 +1340,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "R14") (unit 1)
+          (reference "R3302") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "R18") (unit 1)
+          (reference "R3002") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "R36") (unit 1)
+          (reference "R3202") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "R40") (unit 1)
+          (reference "R3402") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "R44") (unit 1)
+          (reference "R2902") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "R158") (unit 1)
+          (reference "R3102") (unit 1)
         )
       )
     )
@@ -1364,7 +1364,7 @@
   (symbol (lib_id "Device:R") (at 124.46 135.89 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc4029d5-3335-421f-b66e-1123b34a5b31)
-    (property "Reference" "R16" (at 124.46 129.54 90)
+    (property "Reference" "R3304" (at 124.46 129.54 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "100" (at 124.46 135.89 90)
@@ -1381,22 +1381,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "R16") (unit 1)
+          (reference "R3304") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "R20") (unit 1)
+          (reference "R3004") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "R38") (unit 1)
+          (reference "R3204") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "R42") (unit 1)
+          (reference "R3404") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "R156") (unit 1)
+          (reference "R2904") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "R160") (unit 1)
+          (reference "R3104") (unit 1)
         )
       )
     )
@@ -1405,7 +1405,7 @@
   (symbol (lib_id "power:GND") (at 154.94 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fd769eac-9186-4b55-b1b0-1f353fde32a3)
-    (property "Reference" "#PWR013" (at 154.94 119.38 0)
+    (property "Reference" "#PWR03305" (at 154.94 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 118.11 0)
@@ -1421,22 +1421,22 @@
     (instances
       (project "cad-enc-dec"
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/4522cd43-88cc-45a2-ba5c-dadd01ce750d"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR03305") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/862df1f8-dbcc-4376-8869-d20ad10f1924"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR03005") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/1a97bf48-f79c-4582-88af-26f493915ea3"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR03205") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/36b0814c-7e57-45f0-8b66-6a68294e7a23"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR03405") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/11223ce9-0f2f-45ac-86f3-7349b8d702d9"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR02905") (unit 1)
         )
         (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/27a43937-08d4-4f92-93fe-02e2fba5fc31/c00b740d-374c-43c7-ae09-c5b2761a0e30"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR03105") (unit 1)
         )
       )
     )

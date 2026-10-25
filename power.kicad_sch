@@ -2019,7 +2019,7 @@
     (property "Value" "Barrel_Jack_MountingPin" (at 64.77 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 66.04 130.556 0)
+    (property "Footprint" "Connector_BarrelJack:BarrelJack_Horizontal" (at 66.04 130.556 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 66.04 130.556 0)

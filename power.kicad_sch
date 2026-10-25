@@ -1587,7 +1587,7 @@
   (symbol (lib_id "Device:LED") (at 123.19 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 06d4b9c1-105c-4dbe-adca-623db3a61415)
-    (property "Reference" "D403" (at 130.81 58.42 90)
+    (property "Reference" "D4" (at 130.81 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED Blue" (at 127 61.2775 90)
@@ -1599,15 +1599,17 @@
     (property "Datasheet" "~" (at 123.19 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 928bf3ea-66a0-4859-99a3-565e9795e44b))
-    (pin "2" (uuid e936a687-7e9f-4df1-9ca5-76c6088e47e5))
+    (pin "1" (uuid 9886a7fd-fde2-4333-abbd-f0828ccbfc3a))
+    (pin "2" (uuid b552b404-b23a-429e-bedd-9693326ce701))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "D403") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "D4") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "D803") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1616,7 +1618,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 87.63 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c37f183-ca75-4355-9a53-95b4f2a6384d)
-    (property "Reference" "#FLG0405" (at 87.63 140.335 0)
+    (property "Reference" "#FLG06" (at 87.63 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 87.63 143.51 0)
@@ -1628,14 +1630,16 @@
     (property "Datasheet" "~" (at 87.63 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 14f104ed-63b0-4863-9229-3da5c422baa6))
+    (pin "1" (uuid b86afcda-4139-4de7-810d-8ef6bfa40ad4))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#FLG0405") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#FLG06") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#FLG0805") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#FLG06") (unit 1)
         )
       )
     )
@@ -1644,7 +1648,7 @@
   (symbol (lib_id "Device:C") (at 203.2 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d0607b3-2d64-4eae-a263-8f721df2c4d6)
-    (property "Reference" "C402" (at 207.01 59.69 0)
+    (property "Reference" "C19" (at 207.01 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 207.01 62.23 0)
@@ -1656,15 +1660,17 @@
     (property "Datasheet" "~" (at 203.2 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 80c85ed7-4600-4c07-9b99-19c75daec931))
-    (pin "2" (uuid 43616f68-b009-404f-8574-a4b81bea0ba3))
+    (pin "1" (uuid f7972852-bb82-4f6e-8172-f4d4ce728150))
+    (pin "2" (uuid c7d3dbda-d7f2-4441-b196-d86e2015be54))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C19") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -1673,7 +1679,7 @@
   (symbol (lib_id "Device:C") (at 229.87 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1519b608-1345-451a-a637-f9144358c76e)
-    (property "Reference" "C405" (at 233.68 121.92 0)
+    (property "Reference" "C22" (at 233.68 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 233.68 124.46 0)
@@ -1685,15 +1691,17 @@
     (property "Datasheet" "~" (at 229.87 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a96be313-6a3b-4748-87b2-5cbf8847292e))
-    (pin "1" (uuid 0a25d444-25ee-4a0c-9956-acbfc22468a7))
+    (pin "2" (uuid c6ccd593-33ca-4140-bc31-7c222d03f23e))
+    (pin "1" (uuid a36e0dd5-5d91-4d88-b07d-1fc22f0a8e0d))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C405") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C22") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C805") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -1702,7 +1710,7 @@
   (symbol (lib_id "power:GND") (at 236.22 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1713bfe3-d3d6-48bb-b036-d18d8c8d6220)
-    (property "Reference" "#PWR0410" (at 236.22 144.78 0)
+    (property "Reference" "#PWR024" (at 236.22 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 143.51 0)
@@ -1714,14 +1722,16 @@
     (property "Datasheet" "" (at 236.22 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f4690cdd-5b21-4871-932f-9a9e1cb6238e))
+    (pin "1" (uuid 66362100-8258-43c1-8c96-81b1a11cd4f3))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0410") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR024") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0810") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1730,7 +1740,7 @@
   (symbol (lib_id "power:GND") (at 223.52 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 180827e7-54a0-49d4-998c-085648f589a1)
-    (property "Reference" "#PWR0405" (at 223.52 80.01 0)
+    (property "Reference" "#PWR019" (at 223.52 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 78.74 0)
@@ -1742,14 +1752,16 @@
     (property "Datasheet" "" (at 223.52 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0df951f9-02cc-4c48-bd45-99dd8ed3f6b2))
+    (pin "1" (uuid 9ee81c99-6753-4f37-950c-dbffdbf885bf))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0405") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR019") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0805") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -1758,7 +1770,7 @@
   (symbol (lib_id "Device:C") (at 143.51 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1db6966f-b5cb-46e6-8bdc-a724676101c9)
-    (property "Reference" "C407" (at 147.32 135.89 0)
+    (property "Reference" "C24" (at 147.32 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 147.32 138.43 0)
@@ -1770,15 +1782,17 @@
     (property "Datasheet" "~" (at 143.51 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 70d437ff-292e-429c-8462-1588a814874a))
-    (pin "1" (uuid 30860299-a6d3-4db4-9957-0409b947a2aa))
+    (pin "2" (uuid de35c790-8051-45c5-a6e5-739c461a97cb))
+    (pin "1" (uuid 199779b2-9106-490b-b9a8-d782863d92a9))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C407") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C24") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C807") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -1787,7 +1801,7 @@
   (symbol (lib_id "power:VDD") (at 59.69 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1f880f25-ec57-4258-8fe3-aa0f88f68961)
-    (property "Reference" "#PWR0401" (at 63.5 53.34 0)
+    (property "Reference" "#PWR015" (at 63.5 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 55.88 53.34 90)
@@ -1799,14 +1813,16 @@
     (property "Datasheet" "" (at 59.69 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ad40361a-91eb-4210-a3c5-f28a17731d17))
+    (pin "1" (uuid 13fc62b7-5853-4542-a6dc-fac3bc36069e))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR015") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1815,7 +1831,7 @@
   (symbol (lib_id "Device:C") (at 168.91 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21c252af-f47b-4545-a523-2e86ead12d9b)
-    (property "Reference" "C409" (at 172.72 140.97 0)
+    (property "Reference" "C26" (at 172.72 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 172.72 143.51 0)
@@ -1827,15 +1843,17 @@
     (property "Datasheet" "~" (at 168.91 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a5bae8be-5af5-49c8-9c17-0e5c25bd4539))
-    (pin "1" (uuid 01e4e6b9-d7e9-4557-9799-1c0b15ca6a72))
+    (pin "2" (uuid cc1a45b3-0881-4117-a046-10e222e74064))
+    (pin "1" (uuid 7dca362b-33d3-4ac7-9dca-a12461922b10))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C409") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C26") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C809") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C26") (unit 1)
         )
       )
     )
@@ -1844,7 +1862,7 @@
   (symbol (lib_id "power:+24V") (at 157.48 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2761f6e1-95e0-4424-b0a8-f3b09121c37c)
-    (property "Reference" "#PWR0402" (at 153.67 53.34 0)
+    (property "Reference" "#PWR016" (at 153.67 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 161.29 53.34 90)
@@ -1856,14 +1874,16 @@
     (property "Datasheet" "" (at 157.48 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e1756d9b-36d2-4c96-8be8-66877efd674c))
+    (pin "1" (uuid 13a59555-40be-41d6-b951-a3486ab99f17))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR016") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1872,7 +1892,7 @@
   (symbol (lib_id "power:+5V") (at 251.46 115.57 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2885ce25-9b64-4570-b95e-d6d169ace8f3)
-    (property "Reference" "#PWR0407" (at 247.65 115.57 0)
+    (property "Reference" "#PWR021" (at 247.65 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 255.27 115.57 90)
@@ -1884,14 +1904,16 @@
     (property "Datasheet" "" (at 251.46 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a7e81aa9-b3dc-4a18-95c2-837628edd669))
+    (pin "1" (uuid e9b8ec50-5e35-4428-b6de-ea5ea36fb264))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0407") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR021") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0807") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1900,7 +1922,7 @@
   (symbol (lib_id "power:+3V3") (at 247.65 53.34 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 312af6e4-9e12-4954-a70c-a2882ba69c28)
-    (property "Reference" "#PWR0404" (at 243.84 53.34 0)
+    (property "Reference" "#PWR018" (at 243.84 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 251.46 53.34 90)
@@ -1912,14 +1934,16 @@
     (property "Datasheet" "" (at 247.65 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46d38b80-4f67-4e9e-a384-b2df142d3449))
+    (pin "1" (uuid 6097241b-f528-45a3-9c0d-280742023279))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0404") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR018") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0804") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1928,7 +1952,7 @@
   (symbol (lib_id "power:+5V") (at 190.5 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38c68a19-171d-424e-bb3b-2b0c31352475)
-    (property "Reference" "#PWR0403" (at 194.31 53.34 0)
+    (property "Reference" "#PWR017" (at 194.31 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 186.69 53.34 90)
@@ -1940,14 +1964,16 @@
     (property "Datasheet" "" (at 190.5 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d69cb4c7-6689-4b78-aff0-5ae64fb1ac67))
+    (pin "1" (uuid 81cce502-d3b5-4a59-9853-717629dfcb04))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0403") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR017") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0803") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1956,7 +1982,7 @@
   (symbol (lib_id "Device:C") (at 238.76 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e0075ab-26eb-4948-aeb6-61f21d98ada0)
-    (property "Reference" "C403" (at 242.57 59.69 0)
+    (property "Reference" "C20" (at 242.57 59.69 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 242.57 62.23 0)
@@ -1968,15 +1994,17 @@
     (property "Datasheet" "~" (at 238.76 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid d1251293-1cc1-4481-b7d9-c4d343416c8b))
-    (pin "1" (uuid 0402fe58-2e05-42d2-9fa1-501c69b6dd59))
+    (pin "2" (uuid 3b1af42a-4a79-4373-b85a-1b1d9b57e86b))
+    (pin "1" (uuid ac6107f5-5caf-4f30-bbfb-c0c517a3c6a9))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C403") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C20") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C803") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -1985,7 +2013,7 @@
   (symbol (lib_id "Connector:Barrel_Jack_MountingPin") (at 64.77 129.54 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3fc253aa-dd08-47bd-82a5-a96e123fff30)
-    (property "Reference" "J401" (at 64.77 120.65 0)
+    (property "Reference" "J10" (at 64.77 120.65 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Barrel_Jack_MountingPin" (at 64.77 123.19 0)
@@ -1997,16 +2025,18 @@
     (property "Datasheet" "~" (at 66.04 130.556 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a807baa0-134a-4e81-b009-72ae22796d34))
-    (pin "MP" (uuid 7f16341a-8b5e-4039-b931-d3a8d700f5e0))
-    (pin "1" (uuid acfbf741-0595-42b9-926e-2b4d80514205))
+    (pin "2" (uuid e6bdc272-081b-4ec4-a20a-fab41506c4ee))
+    (pin "MP" (uuid dd8e5b3e-c796-49e7-b412-6be6e9be641e))
+    (pin "1" (uuid a1f926bc-b926-48e4-a333-3a244848cd35))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "J401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "J10") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "J801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2015,7 +2045,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 52.07 138.43 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4195b640-cc05-4ea1-b61e-8b1fe0293f29)
-    (property "Reference" "#FLG0404" (at 52.07 140.335 0)
+    (property "Reference" "#FLG05" (at 52.07 140.335 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 52.07 143.51 0)
@@ -2027,14 +2057,16 @@
     (property "Datasheet" "~" (at 52.07 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 95610387-3b50-469c-8a1c-faa6e4e2c9a1))
+    (pin "1" (uuid 9dfe792c-14e8-4d97-8501-42247a21725b))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#FLG0404") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#FLG05") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#FLG0804") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -2043,7 +2075,7 @@
   (symbol (lib_id "Device:Fuse") (at 81.28 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 478a3046-a7ee-425f-bb46-1b251fd49b14)
-    (property "Reference" "F401" (at 81.28 48.26 90)
+    (property "Reference" "F1" (at 81.28 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Fuse 5A" (at 81.28 50.8 90)
@@ -2055,15 +2087,17 @@
     (property "Datasheet" "~" (at 81.28 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 02bf8a9b-6935-4e3d-a862-43a9d1953bd5))
-    (pin "2" (uuid bf7ac88e-fb19-4018-985b-f07ca957d46a))
+    (pin "1" (uuid 0bb33cea-2c6a-4e80-9cff-6e1fff40bc79))
+    (pin "2" (uuid f9171066-0320-4523-889e-61c0d4b39333))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "F401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "F1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "F801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "F1") (unit 1)
         )
       )
     )
@@ -2072,7 +2106,7 @@
   (symbol (lib_id "Device:L") (at 134.62 53.34 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54f16f35-0ac2-4d5e-a5b9-c550cd24d150)
-    (property "Reference" "L401" (at 134.62 48.26 90)
+    (property "Reference" "L2" (at 134.62 48.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5u" (at 134.62 50.8 90)
@@ -2084,15 +2118,17 @@
     (property "Datasheet" "~" (at 134.62 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 11d3826f-8c8d-44f2-9ab0-bb2f826657df))
-    (pin "2" (uuid c4cb0bd0-c419-4b91-b28a-3747f0699a5e))
+    (pin "1" (uuid 2a67305d-fb30-4729-b951-a4402a53329e))
+    (pin "2" (uuid 39c3aee1-fe64-4737-b1e4-8c58293bed9d))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "L401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "L2") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "L801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "L2") (unit 1)
         )
       )
     )
@@ -2101,7 +2137,7 @@
   (symbol (lib_id "Device:C") (at 242.57 123.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59dafa6b-4170-46fe-993a-19706e470d07)
-    (property "Reference" "C406" (at 246.38 121.92 0)
+    (property "Reference" "C23" (at 246.38 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 246.38 124.46 0)
@@ -2113,15 +2149,17 @@
     (property "Datasheet" "~" (at 242.57 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3e113b05-73f2-45bd-ad77-8bcc86d1570f))
-    (pin "1" (uuid 051fae0d-8444-46e4-8dd4-f2799d78da60))
+    (pin "2" (uuid 1628d678-b6ea-431d-a0e1-e8d9d3540a3f))
+    (pin "1" (uuid 754cb82c-31ad-42b6-9fe3-0f33fb102c4a))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C406") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C23") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C806") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -2130,7 +2168,7 @@
   (symbol (lib_id "Device:R") (at 92.71 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d1eb49e-2519-4fd8-8709-4e9054c2c4bd)
-    (property "Reference" "R401" (at 95.25 71.12 0)
+    (property "Reference" "R6" (at 95.25 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "36K" (at 92.7847 74.2813 90)
@@ -2142,15 +2180,17 @@
     (property "Datasheet" "~" (at 92.71 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c3553fe8-6cb4-4b4a-8a89-401ab86a1493))
-    (pin "1" (uuid 3a35ded2-e66d-4ac3-b979-5316b7b4f49b))
+    (pin "2" (uuid 709585f2-7b2a-4aa9-995f-77e1c0c29652))
+    (pin "1" (uuid 3697f285-4ce1-4105-b95d-8b5cbdcecb95))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "R401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "R6") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "R801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -2159,7 +2199,7 @@
   (symbol (lib_id "power:Earth") (at 64.77 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ed475cf-8faf-4428-b9b9-896384453f1d)
-    (property "Reference" "#PWR0411" (at 64.77 147.32 0)
+    (property "Reference" "#PWR025" (at 64.77 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (at 64.77 144.78 0)
@@ -2171,14 +2211,16 @@
     (property "Datasheet" "~" (at 64.77 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24737b22-5399-4d7a-b14b-4a29bec69469))
+    (pin "1" (uuid 68fe6fb6-4364-4002-8749-9627560987bf))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0411") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR025") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0811") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -2187,7 +2229,7 @@
   (symbol (lib_id "Device:R") (at 123.19 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72bd9576-6ee3-4bb9-a340-21f093229216)
-    (property "Reference" "R402" (at 125.73 71.12 0)
+    (property "Reference" "R7" (at 125.73 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "10K" (at 123.2705 74.2813 90)
@@ -2199,15 +2241,17 @@
     (property "Datasheet" "~" (at 123.19 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f8b5a11c-bdbc-4ca4-990a-54666d5845dc))
-    (pin "1" (uuid bf2c4d1d-16c5-40f7-a7de-8229a61df388))
+    (pin "2" (uuid b2e9007a-4494-4fc8-bd4c-5d9464b5aa2c))
+    (pin "1" (uuid 3a6f29ab-c0ae-418c-a53e-104cda952b88))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "R402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "R7") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "R802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -2216,7 +2260,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 87.63 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73f06ada-70db-44fb-bcdd-5542d993ce19)
-    (property "Reference" "#FLG0402" (at 87.63 125.095 0)
+    (property "Reference" "#FLG03" (at 87.63 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 87.63 121.92 0)
@@ -2228,14 +2272,16 @@
     (property "Datasheet" "~" (at 87.63 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b0fa3a7c-a17f-4124-a28d-460bf01dca36))
+    (pin "1" (uuid 8fdcfd28-4709-41ab-ad82-0ef97ccdd95c))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#FLG0402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#FLG03") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#FLG0802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -2244,7 +2290,7 @@
   (symbol (lib_id "power:GND") (at 175.26 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7836f9d6-53f3-4bfb-b1fc-ef713faa3665)
-    (property "Reference" "#PWR0413" (at 175.26 157.48 0)
+    (property "Reference" "#PWR027" (at 175.26 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 156.21 0)
@@ -2256,14 +2302,16 @@
     (property "Datasheet" "" (at 175.26 151.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ca8159f3-fc22-4e9c-a258-32752aa72c22))
+    (pin "1" (uuid c8c1501c-5af2-4d64-8781-a1784e3f3b85))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0413") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR027") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0813") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2272,7 +2320,7 @@
   (symbol (lib_id "Device:C") (at 156.21 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 851e25be-5361-47df-b900-d4b9fff6a4c2)
-    (property "Reference" "C408" (at 160.02 135.89 0)
+    (property "Reference" "C25" (at 160.02 135.89 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220n" (at 160.02 138.43 0)
@@ -2284,15 +2332,17 @@
     (property "Datasheet" "~" (at 156.21 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 53668c1d-4242-4e1f-b65a-4259cc799820))
-    (pin "1" (uuid 902891b2-5d65-4ec1-9036-2b63f9217471))
+    (pin "2" (uuid f2a23210-c53b-4259-944b-5c34a306ee6c))
+    (pin "1" (uuid c31724f9-f380-4f97-aeaf-70b819453d45))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C408") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C25") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C808") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -2301,7 +2351,7 @@
   (symbol (lib_id "Regulator_Switching:LMR33620ADDA") (at 181.61 132.08 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b108823-7af4-416f-875a-3c07068d068e)
-    (property "Reference" "U402" (at 181.61 119.38 0)
+    (property "Reference" "U3" (at 181.61 119.38 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LMR33620CQ5" (at 181.61 121.92 0)
@@ -2313,22 +2363,24 @@
     (property "Datasheet" "" (at 181.61 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "6" (uuid 1a90a47b-fe84-4c16-b1a0-7c90ae2d9e30))
-    (pin "1" (uuid daa07b49-d3bc-4f4d-b09a-36dc62934342))
-    (pin "8" (uuid a8259a7a-dd91-4cc4-8b12-a3590834a72c))
-    (pin "7" (uuid 4385addd-0a36-4fa6-8c41-bbb8e0726fd1))
-    (pin "5" (uuid f571a193-4e40-4c97-942c-199a30989087))
-    (pin "3" (uuid e57d5492-da06-4803-9f39-92c2de5eaf03))
-    (pin "9" (uuid 2612a1b8-11bd-44ea-9091-558f8d64a910))
-    (pin "2" (uuid 5689f618-fb43-4877-bd9f-03b84fd163cd))
-    (pin "4" (uuid 827d0de1-4887-4417-ad17-30dd23f792f8))
+    (pin "6" (uuid e7c95dec-3bd5-4912-b30f-3f11638428c4))
+    (pin "1" (uuid a2355c6c-f221-4d7d-a009-681db9400c12))
+    (pin "8" (uuid d65ecad3-197b-4da1-9305-86b71ddcb378))
+    (pin "7" (uuid bb699eb8-b98f-4687-a80f-de8c0fdc6bf5))
+    (pin "5" (uuid 47e28238-ffcc-400d-9559-7e09ebfd8cbc))
+    (pin "3" (uuid d6c683fc-cf56-47f5-8397-11e38e3c7357))
+    (pin "9" (uuid cdfbbfbd-7ffb-4403-8962-198f2adc78ca))
+    (pin "2" (uuid 1585e342-ca82-415f-8aaa-05ec414e9496))
+    (pin "4" (uuid 7b5bf107-ae8a-4c0c-bd9e-9a34e5d001b0))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "U402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "U3") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "U802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2337,7 +2389,7 @@
   (symbol (lib_id "power:GND") (at 107.95 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a58d026d-3f4f-4e0c-bd96-f3819e23b9ed)
-    (property "Reference" "#PWR0406" (at 107.95 91.44 0)
+    (property "Reference" "#PWR020" (at 107.95 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 107.95 90.17 0)
@@ -2349,14 +2401,16 @@
     (property "Datasheet" "" (at 107.95 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5c8e9d3e-d9ea-4d83-929b-687bd647ce71))
+    (pin "1" (uuid de2b9147-d002-4756-9e7a-eded12c85b21))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0406") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR020") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0806") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2365,7 +2419,7 @@
   (symbol (lib_id "Regulator_Linear:TLV76733DRVx") (at 220.98 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b04b86ba-4cc4-43ff-bf32-01244a50e3ed)
-    (property "Reference" "U401" (at 220.98 45.72 0)
+    (property "Reference" "U2" (at 220.98 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TLV76733" (at 220.98 48.26 0)
@@ -2377,20 +2431,22 @@
     (property "Datasheet" "" (at 219.71 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid acee185e-4ccf-438c-8d5c-efa8af0729eb))
-    (pin "7" (uuid 0837c1fc-b102-48ab-be50-1c4aaf947c0d))
-    (pin "4" (uuid a6744047-854e-4af9-92f5-8e304fceef83))
-    (pin "3" (uuid 70a3a6b4-aaa5-447f-bfe8-f54dd08bf3b3))
-    (pin "6" (uuid bfad5cf0-e40c-47fe-b7b1-28fbfb2a1347))
-    (pin "1" (uuid dc3be92b-57b4-4162-bddd-d0e993a8e549))
-    (pin "5" (uuid a7f57c17-9099-4059-80b0-06487a5617df))
+    (pin "2" (uuid 7ab5ae6a-08f2-466a-b100-b83b880e3da1))
+    (pin "7" (uuid 819402c3-635c-4d54-bd7d-cb6a3771c11f))
+    (pin "4" (uuid ae9e178b-cece-4c93-95d1-1161e29d42de))
+    (pin "3" (uuid 4b1d4b47-3491-4bd0-80c3-86b13cfeb819))
+    (pin "6" (uuid 1692569a-87ef-43dc-86dc-a53a5cc7996a))
+    (pin "1" (uuid 55552a28-121d-4f04-b625-f2af559f0887))
+    (pin "5" (uuid 5d342aa4-5ca2-426b-92d4-735343fd853d))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "U401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "U2") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "U801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2399,7 +2455,7 @@
   (symbol (lib_id "power:GND") (at 74.93 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b5ca703a-001c-4042-955b-8fdb98057cfa)
-    (property "Reference" "#PWR0412" (at 74.93 147.32 0)
+    (property "Reference" "#PWR026" (at 74.93 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 146.05 0)
@@ -2411,14 +2467,16 @@
     (property "Datasheet" "" (at 74.93 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17704058-b9e3-40f3-88bf-a18e04b567b4))
+    (pin "1" (uuid af7dc99c-410b-4ffe-97c3-8b301d58d4eb))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0412") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR026") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0812") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2427,7 +2485,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 198.12 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bbd76d4a-d8a3-405f-89b0-93d5e5e63bda)
-    (property "Reference" "#FLG0401" (at 198.12 51.435 0)
+    (property "Reference" "#FLG02" (at 198.12 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 198.12 48.26 0)
@@ -2439,14 +2497,16 @@
     (property "Datasheet" "~" (at 198.12 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 56ab743d-1f98-413d-9a5d-29df539e6f4c))
+    (pin "1" (uuid 0d5b7349-8ae2-4163-83b5-cec43d75f563))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#FLG0401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#FLG02") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#FLG0801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -2455,7 +2515,7 @@
   (symbol (lib_id "Device:D_Zener") (at 107.95 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb62de6b-ff8e-489c-bd0b-49eaa59405a7)
-    (property "Reference" "D402" (at 110.49 58.42 90)
+    (property "Reference" "D3" (at 110.49 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Zener 12V" (at 110.49 60.96 90)
@@ -2467,15 +2527,17 @@
     (property "Datasheet" "~" (at 107.95 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid cacc891e-8326-4aa7-b69a-06aa90a6ac05))
-    (pin "2" (uuid 92d2a594-5245-464c-b56d-b99878fa8935))
+    (pin "1" (uuid a70b3a98-0e4a-44c5-bc4c-58b22b288fc4))
+    (pin "2" (uuid 77e16d4b-f344-46ff-a39b-ca1482595d76))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "D402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "D3") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "D802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -2484,7 +2546,7 @@
   (symbol (lib_id "Device:Q_PMOS_DSG") (at 92.71 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc3b2d18-c66f-485f-9ce3-6b62e862d80b)
-    (property "Reference" "Q401" (at 92.71 46.99 90)
+    (property "Reference" "Q1" (at 92.71 46.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PMOS" (at 92.71 49.53 90)
@@ -2496,16 +2558,18 @@
     (property "Datasheet" "~" (at 92.71 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 077057a0-cff3-436e-8a55-f601c49e68cb))
-    (pin "3" (uuid 9885aa57-0dff-4c6d-92c6-879468205381))
-    (pin "2" (uuid 9cb82dfb-1696-4095-b840-de69366429a9))
+    (pin "1" (uuid 5d6204a0-2b93-4f6f-8d05-9f0eeacec05b))
+    (pin "3" (uuid 5beddd54-bd3e-42a2-8ecb-741d32ec0ad5))
+    (pin "2" (uuid 34bba63e-6b24-4835-891f-11390096f09b))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "Q401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "Q1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "Q801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2514,7 +2578,7 @@
   (symbol (lib_id "Device:C") (at 144.78 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cd404dd8-942e-4bd8-adb2-f2cdc060775d)
-    (property "Reference" "C401" (at 148.59 58.42 0)
+    (property "Reference" "C18" (at 148.59 58.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22u" (at 148.59 60.96 0)
@@ -2526,15 +2590,17 @@
     (property "Datasheet" "~" (at 144.78 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid abd3ec37-7d0e-4f5e-9d96-ec835b33a2c4))
-    (pin "1" (uuid 08bf60cb-45e8-446a-9035-cfced29ca635))
+    (pin "2" (uuid a6cc86dd-02f4-4817-a2c0-98fa17eb0ea0))
+    (pin "1" (uuid cf88a1b4-16b3-43a1-b593-53d873576b30))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C18") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -2543,7 +2609,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 138.43 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf60e3a0-f215-4319-8a77-5641c947b394)
-    (property "Reference" "#FLG0403" (at 138.43 125.095 0)
+    (property "Reference" "#FLG04" (at 138.43 125.095 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 138.43 121.92 0)
@@ -2555,14 +2621,16 @@
     (property "Datasheet" "~" (at 138.43 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38062d94-56cf-44b9-9c05-c0021a1e3d17))
+    (pin "1" (uuid 6bf4f38a-29d3-4058-bfc7-ffa08be0fb22))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#FLG0403") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#FLG04") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#FLG0803") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -2571,7 +2639,7 @@
   (symbol (lib_id "Diode:SMAJ28A") (at 71.12 59.69 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d34e2c46-e7ca-47a0-b55d-e6966a46a8b3)
-    (property "Reference" "D401" (at 73.66 58.42 90)
+    (property "Reference" "D2" (at 73.66 58.42 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TVS 28V" (at 73.66 60.96 90)
@@ -2583,15 +2651,17 @@
     (property "Datasheet" "~" (at 71.12 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3d2bc2b4-1aca-438e-a153-b06b49258032))
-    (pin "1" (uuid ffa4db51-e597-4dbc-bd75-4953dd3ba4f1))
+    (pin "2" (uuid 555dad4c-dc63-471a-8ada-dc9e72c55267))
+    (pin "1" (uuid bb852179-7cb4-496a-a6ba-f105746cfa75))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "D401") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "D2") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "D801") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2600,7 +2670,7 @@
   (symbol (lib_id "power:VDD") (at 95.25 127 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d97357c3-dcc1-4fdb-95c8-75b4e4fc69f5)
-    (property "Reference" "#PWR0408" (at 91.44 127 0)
+    (property "Reference" "#PWR022" (at 91.44 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (at 99.06 127 90)
@@ -2612,14 +2682,16 @@
     (property "Datasheet" "" (at 95.25 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 551d79ff-f4ee-4bb5-8c2a-e92ad1dad93a))
+    (pin "1" (uuid edf5e132-0a2e-4471-8195-df868b95e1dd))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0408") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR022") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0808") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2628,7 +2700,7 @@
   (symbol (lib_id "Device:C") (at 200.66 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid da72931b-da39-4f05-aa1c-ccd2017e99ac)
-    (property "Reference" "C404" (at 200.66 107.95 90)
+    (property "Reference" "C21" (at 200.66 107.95 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 200.66 110.49 90)
@@ -2640,15 +2712,17 @@
     (property "Datasheet" "~" (at 200.66 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eab285dd-7a9d-4bcf-934a-0805fac6e389))
-    (pin "2" (uuid bd51626a-639e-4cc5-9b19-22cd15855e5a))
+    (pin "1" (uuid c112d02f-851d-41ed-a8cf-d1b16383c1b6))
+    (pin "2" (uuid 146d7176-cc15-43bd-a134-636e78a5a45e))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "C404") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "C21") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "C804") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -2657,7 +2731,7 @@
   (symbol (lib_id "Device:L") (at 213.36 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f65f7e4f-1141-4f12-8a22-75f81c1f9d93)
-    (property "Reference" "L402" (at 213.36 110.49 90)
+    (property "Reference" "L3" (at 213.36 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1.5u" (at 213.36 113.03 90)
@@ -2669,15 +2743,17 @@
     (property "Datasheet" "~" (at 213.36 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e18440a2-fa33-4879-803d-5fa99af28b62))
-    (pin "2" (uuid a45e59df-fa6e-4e98-9a70-1ebdb26ef1c7))
+    (pin "1" (uuid b85a448a-fdf2-491c-b30b-907d0e8c65fa))
+    (pin "2" (uuid c220170f-25da-4840-b6d1-3557249e7b76))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "L402") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "L3") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "L802") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "L3") (unit 1)
         )
       )
     )
@@ -2686,7 +2762,7 @@
   (symbol (lib_id "power:+24V") (at 130.81 127 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc384933-54e2-4650-8341-fd1855c062c7)
-    (property "Reference" "#PWR0409" (at 134.62 127 0)
+    (property "Reference" "#PWR023" (at 134.62 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 127 127 90)
@@ -2698,14 +2774,16 @@
     (property "Datasheet" "" (at 130.81 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 63e8241c-6400-4cf4-84b8-e1bd776e9bdb))
+    (pin "1" (uuid 869ddde7-3f63-4e41-8e02-aebf04b26fe9))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/1d7e2b68-ba21-44ff-816d-e65733844278"
-          (reference "#PWR0409") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
+          (reference "#PWR023") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/459f8c95-a9a6-4544-bddf-eed3171bdaba"
-          (reference "#PWR0809") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+          (reference "#PWR023") (unit 1)
         )
       )
     )

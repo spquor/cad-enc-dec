@@ -3296,7 +3296,7 @@
   (symbol (lib_id "Device:C") (at 54.61 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 021300cc-7799-4103-b4f3-a7f36d0649dd)
-    (property "Reference" "C302" (at 58.42 36.83 0)
+    (property "Reference" "C2" (at 58.42 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 58.42 39.37 0)
@@ -3308,15 +3308,17 @@
     (property "Datasheet" "~" (at 54.61 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid be157de0-cbf1-488f-ac71-50e4bf5f2543))
-    (pin "1" (uuid 24fb7639-a58f-4858-9096-bb2330c0141c))
+    (pin "2" (uuid 9b43dfa2-9cf5-4078-9dd5-93133612f192))
+    (pin "1" (uuid a6ac0a52-5c72-4ee4-afeb-e805049c2ae2))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C302") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C2") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C702") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3325,7 +3327,7 @@
   (symbol (lib_id "power:GND") (at 111.76 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 050febc4-fe10-4942-ac3f-94c02d751d75)
-    (property "Reference" "#PWR0306" (at 111.76 269.24 0)
+    (property "Reference" "#PWR014" (at 111.76 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 267.97 0)
@@ -3337,14 +3339,16 @@
     (property "Datasheet" "" (at 111.76 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7016e0be-19d8-42aa-93f2-b05b5831251f))
+    (pin "1" (uuid c8de385a-b943-43b2-ad73-e1256f0b92e2))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#PWR0306") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#PWR014") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#PWR0706") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -3353,7 +3357,7 @@
   (symbol (lib_name "STM32H723ZGTx_1") (lib_id "MCU_ST_STM32H7:STM32H723ZGTx") (at 116.84 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 143799e9-273b-4fc2-b83c-769e8ca046fd)
-    (property "Reference" "U301" (at 121.5741 254 0)
+    (property "Reference" "U1" (at 121.5741 254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "STM32H723ZGTx" (at 121.5741 256.54 0)
@@ -3365,157 +3369,159 @@
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32h723zg.pdf" (at 116.84 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "29" (uuid 5f45f9da-5451-414d-af15-4048fbed7fa9))
-    (pin "56" (uuid c332ac19-455a-4b41-af66-7a4caf99864a))
-    (pin "30" (uuid 1f3c82cf-37ce-4cf4-a5ef-868ee1d87a79))
-    (pin "38" (uuid 7bd1a63f-b8ae-41ce-acc0-0bb61cbece52))
-    (pin "4" (uuid 3e1d7203-0784-4778-be42-dee8838e54be))
-    (pin "127" (uuid f9967308-d0d4-4a14-96eb-20ae7641dc36))
-    (pin "82" (uuid 1dcb51b4-4251-41f3-8a6f-4bf02d270d6f))
-    (pin "31" (uuid 1faf9ba4-a79a-44d3-b489-ea23810cb9d5))
-    (pin "141" (uuid 0b085ea9-0b2f-4db7-8d61-26878f881b92))
-    (pin "89" (uuid 0507139e-b371-4ac3-a2dc-3eca773aaf0a))
-    (pin "77" (uuid ce3ed7cf-095e-40d0-a7a9-61d41edf2216))
-    (pin "49" (uuid 7ba7ce6b-57ab-4715-b503-8d761930e646))
-    (pin "5" (uuid 9d0e986d-ab85-4eee-b12b-835fb12da1a3))
-    (pin "25" (uuid 5a1621ef-0b3a-43c6-86f5-7525609f68d1))
-    (pin "138" (uuid c936c848-d3bf-4d0c-a8b9-89d4ddd4e12b))
-    (pin "40" (uuid c230e757-c7c1-4b5a-9885-ffb664cc9353))
-    (pin "137" (uuid f6d54c87-bd77-4909-be2c-02626056146d))
-    (pin "87" (uuid 75078002-6960-4a64-b410-db65b9bccdd3))
-    (pin "140" (uuid 43a4b4d0-fb28-4a60-ad4f-69ff15a602fd))
-    (pin "39" (uuid 6d47b317-0158-4881-8289-7b9acc6623e2))
-    (pin "142" (uuid f92c602c-a2a1-487a-954d-d84fc3e904c3))
-    (pin "28" (uuid d9ed76e4-146b-447a-879a-a9934716a742))
-    (pin "76" (uuid ad425371-2eb6-4dcf-855a-515d62dd74f3))
-    (pin "37" (uuid 2268f3bd-1588-4c70-934f-bcc911b2e80e))
-    (pin "8" (uuid ed7d3450-0b8c-4e5a-9045-4fed3a9daef9))
-    (pin "118" (uuid 942f27df-ce5e-4155-90b5-4a57aacdda49))
-    (pin "65" (uuid f0672185-1f06-42c9-b472-4aedac3c8086))
-    (pin "22" (uuid 64db0793-4920-4607-875e-b3d1e8940251))
-    (pin "139" (uuid 4250d5af-2d90-4cc9-8cee-2d148f8f7a3f))
-    (pin "78" (uuid 2fa86db8-20ee-480d-8442-491817b9e356))
-    (pin "6" (uuid 4cebf7d0-c100-4fe3-86f6-22d4cd2e0b19))
-    (pin "73" (uuid 2c2663c0-a83c-47b7-891a-a1e1839a7525))
-    (pin "133" (uuid 987eeed1-a26f-48ba-a786-abdb71c5c44a))
-    (pin "81" (uuid 82915db2-e179-4099-96d7-d76e61d58c81))
-    (pin "128" (uuid 1583308b-f0ff-40c0-92f6-29b8da7b4368))
-    (pin "33" (uuid b3b331da-8e57-4574-8f7d-40e258a3dd21))
-    (pin "61" (uuid 18d02954-d597-4dda-bc15-2af5db50eefe))
-    (pin "79" (uuid 9248556a-997f-4c78-bd1f-e57ee0f08578))
-    (pin "3" (uuid 0c136a5a-c72a-4bd3-a2f5-80a0e554e8d3))
-    (pin "85" (uuid 336c08cd-43dc-4e30-9a71-dd072f9f2577))
-    (pin "36" (uuid caea5b5c-eec6-4f0c-8a46-efd5a9d8be1a))
-    (pin "99" (uuid 5bc1d6b3-ad0d-421d-bd00-9eda6a90a5fc))
-    (pin "20" (uuid c49ec369-7fa3-4391-aada-4db52ff1e0a7))
-    (pin "84" (uuid e092a4c7-5208-4528-a0c6-4485cce7f73e))
-    (pin "129" (uuid 4881bef4-b1fe-4204-875d-07ec9aa136d6))
-    (pin "90" (uuid eeaa2b09-9fdd-4726-8ea8-50455bccec8d))
-    (pin "21" (uuid cccef871-7f2f-467b-be0b-7b6ee1e2a74e))
-    (pin "41" (uuid 4ea6802f-454a-47e5-af45-76efa0bc6f81))
-    (pin "59" (uuid 98d6c750-1a4a-4666-b439-2f3e9d717d55))
-    (pin "122" (uuid 2a5a640a-5f4d-4ce6-8778-714436ff421c))
-    (pin "19" (uuid 6c89cc41-00b1-4dbf-9a53-873b4048ad30))
-    (pin "14" (uuid 25866614-9325-4396-a2e3-95909bcda480))
-    (pin "130" (uuid 19aef08a-1c4d-452c-90c3-5036027354d2))
-    (pin "54" (uuid 490fda6b-e91c-4517-b66d-922caf39e837))
-    (pin "23" (uuid 46dd1fbe-7cea-4400-ba3d-651c926450c2))
-    (pin "2" (uuid 5587f9e7-240a-40c2-a72a-8f6554187caf))
-    (pin "71" (uuid 36a12b1e-23d8-498e-bd10-43e516cb5a69))
-    (pin "97" (uuid a84d0133-7d5f-45ea-85c3-f3fb42674173))
-    (pin "13" (uuid 59c48364-c727-436a-a84a-a7ac97904436))
-    (pin "83" (uuid b6e58855-a142-4370-a7d8-77949ade561d))
-    (pin "88" (uuid 3a277d94-f678-4a00-a3fe-bedae126f967))
-    (pin "15" (uuid 1f5ed903-20e6-4baf-a8c2-ffe68b67a34c))
-    (pin "55" (uuid bfdcf801-7cdb-41a7-a1fb-be8c11d0a4cc))
-    (pin "131" (uuid 0d47e955-ae9b-4a42-82d6-3c1cba48bd07))
-    (pin "144" (uuid 234dd97d-cc50-40d3-94c5-9434f04e4dff))
-    (pin "70" (uuid 4e8feb6b-75c4-45d4-b473-522cf2263487))
-    (pin "94" (uuid 43750169-99e3-4255-b678-18374227ae36))
-    (pin "136" (uuid 35ebfb05-24d1-4ad2-b5b7-ed7ff39a1cdd))
-    (pin "63" (uuid 9d681409-ca09-44c8-bf0e-545b4632e25b))
-    (pin "135" (uuid 9ad0365e-e46b-4f6d-bab9-543af7b564ea))
-    (pin "92" (uuid 00f14b19-f923-4ad1-a0d3-7693b6372332))
-    (pin "60" (uuid 944580fe-5034-4f0f-a99f-7aafd015733b))
-    (pin "35" (uuid d4c45404-589d-4108-85ed-f59fb833e380))
-    (pin "34" (uuid cdf5dd7d-183c-4bc9-8e2a-a9b9c8b2c5ba))
-    (pin "27" (uuid b951219b-e3bd-4deb-8511-dda65ec62587))
-    (pin "124" (uuid 5a96ecfd-d64b-44bc-a7ea-94fd74531d00))
-    (pin "134" (uuid f4f555cc-8ae3-4540-8bfd-2f25216fbf95))
-    (pin "75" (uuid 6c35e34c-116e-40b6-9463-cde3351f983c))
-    (pin "98" (uuid cba16481-6a7b-469a-9384-0fcf0c591d64))
-    (pin "121" (uuid 0459fe7f-bad3-4340-9fb0-6e0713802792))
-    (pin "96" (uuid 3294ea9d-1105-4aed-b067-d2c98efce902))
-    (pin "86" (uuid 8b4acaf8-f3f2-428e-b1d4-4f8f9120ea25))
-    (pin "32" (uuid 34b64ec2-1e25-4718-b7d9-42b7f04419de))
-    (pin "93" (uuid 2e5309fd-f3d0-422d-84ef-8a78919f9444))
-    (pin "69" (uuid 0cd442e4-ad0d-4499-9adc-2265a1d784ef))
-    (pin "132" (uuid cc7e7e12-1d84-4750-b386-9c51b128dc7a))
-    (pin "7" (uuid 371a4356-38a6-4ba0-8d91-d6e43575f3cc))
-    (pin "62" (uuid ad406e06-7f1d-4921-8028-6a1930c2989a))
-    (pin "26" (uuid 5fce5aa6-72e1-47dd-a4a7-4d06caedc374))
-    (pin "74" (uuid 5ac61db7-d27e-4a33-b5e7-0ddcc0fc1839))
-    (pin "113" (uuid 789849fa-e2e3-4601-9235-e499c3699539))
-    (pin "50" (uuid fc3941e6-6e6d-4270-a488-d270e8c61610))
-    (pin "105" (uuid 513b4981-3ddf-470a-8133-c32f5a5e4447))
-    (pin "64" (uuid ed48b6db-3d99-43df-867d-18aa1754315f))
-    (pin "120" (uuid ae07f5e4-1c1d-492f-ab2f-df885330e864))
-    (pin "119" (uuid 069304c7-4ae0-4a00-a1b9-063856e4fba1))
-    (pin "125" (uuid 110edafd-0b9f-41a2-9f45-24bd6fba7cf7))
-    (pin "52" (uuid a5f67470-9713-42f7-a071-d14f288ff0c6))
-    (pin "72" (uuid 1d043966-7a5b-442a-b62e-431dec5bb740))
-    (pin "9" (uuid b94c343d-73c6-4c72-9b26-8aed503f88e7))
-    (pin "24" (uuid 394cc04a-30df-4fd0-b996-43d7ac5a68c9))
-    (pin "66" (uuid e41291b9-0718-4787-862f-2def22dcc488))
-    (pin "95" (uuid 533a0e1c-520e-4241-85f5-3ddaae1fba27))
-    (pin "16" (uuid 6c757189-7547-4042-adfa-19839576a336))
-    (pin "18" (uuid ac2f9fb7-7482-405a-8c94-38094edc6ec5))
-    (pin "123" (uuid 47a371fd-d201-491d-9e5e-d7eabe214df4))
-    (pin "57" (uuid a69bc04c-80a7-48aa-816d-068a3eb54b6b))
-    (pin "68" (uuid 7ca68488-e7de-4f2a-a517-f9f42f19e414))
-    (pin "67" (uuid d4e3db40-4716-43fd-aa23-aa2866dc2886))
-    (pin "143" (uuid 9e23d408-d2ec-42eb-842f-e2c740d97245))
-    (pin "80" (uuid da27ac0f-7c24-42b1-97f6-876a37fb3a26))
-    (pin "91" (uuid ef84bae9-2575-4d3a-b433-8a8b6fb74d55))
-    (pin "17" (uuid d0890b13-9d1e-47f9-82e9-cc41deac6787))
-    (pin "51" (uuid a4850591-55a5-47e7-8c34-2fff373291a0))
-    (pin "12" (uuid ccdb966a-2bfd-48e8-86d5-2d6515a42e93))
-    (pin "58" (uuid d9bc22fe-44b1-4db4-9524-dbc11991aef2))
-    (pin "53" (uuid 73f9636e-f5d3-43f2-9fe9-b4271413df04))
-    (pin "46" (uuid 17be9fa5-a5e2-4279-85ef-ba0167a57407))
-    (pin "111" (uuid c6904c91-5f95-4cd0-8957-258ae7b6a4d1))
-    (pin "115" (uuid ed8bd661-4ae4-428b-bc9b-31078ca24040))
-    (pin "114" (uuid 2d6dbe08-4386-4e40-bd07-523da502a14c))
-    (pin "104" (uuid 52305d81-130f-4f53-a755-a9d7ab2629aa))
-    (pin "11" (uuid 123b64d1-431a-4ae6-9032-7cad1dde0864))
-    (pin "110" (uuid 7d3f5606-60bb-45a2-98d7-a77a70be7b57))
-    (pin "100" (uuid 96e377a3-734c-49a7-917f-629be2980c84))
-    (pin "102" (uuid 06879b54-3564-44fa-80a2-21c1e22f2d91))
-    (pin "42" (uuid 9731e1f2-699d-46eb-a799-0a30c2878293))
-    (pin "126" (uuid 3ef33e6c-9ccd-4bf3-9ad5-ae8e2a7e208a))
-    (pin "45" (uuid 48a2e17e-d6d6-48fb-834a-d2b65c36969d))
-    (pin "107" (uuid a92dc9be-8166-4ef1-9fb7-9b5dc468daf7))
-    (pin "106" (uuid 0d193378-0a6b-47a2-a84b-69ef99fe9411))
-    (pin "43" (uuid 7a32f4d6-df51-4e61-9c8d-34ad25c668a4))
-    (pin "117" (uuid 641e61d5-9e15-40c6-8e50-67a372f879f6))
-    (pin "10" (uuid 32bc1574-90e5-4ad3-89ef-60751b98808f))
-    (pin "1" (uuid 1b087ba7-4853-4d22-bff7-22acec64c96c))
-    (pin "44" (uuid 9a828aa4-ced3-43f2-996d-1272f1a6c48a))
-    (pin "116" (uuid c4c3ceea-3fbb-4a68-8bf5-08c9779cad8b))
-    (pin "109" (uuid c2aa2294-7936-40f7-b8ba-372bc93cede5))
-    (pin "112" (uuid 5e254614-9b74-40e2-b18b-9bf2d9d40394))
-    (pin "103" (uuid 7f8dd970-aa70-4564-b838-7182472a8695))
-    (pin "101" (uuid d481e49f-b2ab-46af-b849-76f6bb12c409))
-    (pin "47" (uuid d1966eb2-0f40-4842-910f-0c3e9f30910d))
-    (pin "108" (uuid a95549aa-6fa5-44af-888b-cd1a5bd9efd0))
-    (pin "48" (uuid a11f0a47-317d-485c-9f83-8c1ac96c20f6))
+    (pin "29" (uuid 9f2f5376-87eb-4f0c-9648-dc077fe6761f))
+    (pin "56" (uuid d5831fdf-3e81-4c35-9822-b5ab1163e54c))
+    (pin "30" (uuid 67be1da6-3581-4d03-9c11-3d7b54f6cd3e))
+    (pin "38" (uuid 25429a23-44c5-4355-9172-fc2c6ab3d088))
+    (pin "4" (uuid 3e18888a-01fc-4029-9e0a-7b9e6a143a95))
+    (pin "127" (uuid 62a92424-c7ea-4c60-9364-576a30bc2a9b))
+    (pin "82" (uuid 340ab8b8-2827-4b2b-aba7-1938134a964e))
+    (pin "31" (uuid 444890fd-ef33-4ce0-94cf-21f8b4e136c9))
+    (pin "141" (uuid 0333a3c0-ed18-46ad-b1d3-3692518ad9af))
+    (pin "89" (uuid 10636cc8-a6cc-4479-add4-7c2bbecbbcaf))
+    (pin "77" (uuid 499c673d-937b-48d9-af95-79f14729b03c))
+    (pin "49" (uuid 52a87516-09da-46d9-835e-e611a8ce5310))
+    (pin "5" (uuid 8bfbb7ca-5b27-4698-87f7-f922071b36f4))
+    (pin "25" (uuid 25a9dc9a-581f-4707-98b9-516c9dde5958))
+    (pin "138" (uuid a723c525-5804-493b-a88b-84a65cfba7c9))
+    (pin "40" (uuid 58a14869-bceb-47f4-862d-7ea6c52b5a83))
+    (pin "137" (uuid 6912b1e0-c9e5-4a82-9104-4d32288ea952))
+    (pin "87" (uuid 8442f6e9-c686-42f8-b0f9-ad77446e1e17))
+    (pin "140" (uuid 1310a533-8038-4569-ad71-e7cef1adcaae))
+    (pin "39" (uuid 07cbc196-84fe-4982-a7c6-d4c4c8a6a62b))
+    (pin "142" (uuid f5677558-3eec-4750-a5b5-47c1e2cddb0d))
+    (pin "28" (uuid aa0d07f0-9039-4be4-b55a-827e4bdfd733))
+    (pin "76" (uuid 6fb8ef9b-a909-4b34-9eb9-80ab17392be9))
+    (pin "37" (uuid a5d4f0ba-2526-48fe-8c59-3adfcb964a15))
+    (pin "8" (uuid e1cd094d-7999-496f-9602-ec2fc4a0698b))
+    (pin "118" (uuid 91de619b-a67b-4d14-9542-3cd4e348945d))
+    (pin "65" (uuid 3a4038f6-3cd0-413d-befb-3330d7465351))
+    (pin "22" (uuid e344a863-cd79-4052-a8c0-e02adf03521d))
+    (pin "139" (uuid fe0905b6-ceb6-4b95-bb15-3b385878a1fb))
+    (pin "78" (uuid 44aa92cf-2bae-4b23-b7cc-ea4bb240d360))
+    (pin "6" (uuid 3e4228df-da1f-44da-96aa-15876cf1e32d))
+    (pin "73" (uuid 5d11b2d6-99c8-472b-ae22-d10d557155a6))
+    (pin "133" (uuid d4f58a02-7892-477d-8a53-62d828281c62))
+    (pin "81" (uuid a9f4da42-f6b9-4bdc-80fe-de96350e5337))
+    (pin "128" (uuid b3d8d66c-3fb5-4fd0-a854-9f71b468b520))
+    (pin "33" (uuid 95ca19a4-01fd-4df0-ad3d-600c46179b19))
+    (pin "61" (uuid 5c5808ab-e129-4d2a-9cce-7ad9c82eb31a))
+    (pin "79" (uuid 7a6601ac-df63-4742-a0ac-7897b7c33cdb))
+    (pin "3" (uuid 5f7238d4-64e5-4585-90b9-035d3057fd5d))
+    (pin "85" (uuid 421a0cc1-f938-465a-b855-52db4b6a70a4))
+    (pin "36" (uuid 66921cef-3d8f-4b75-a2f4-3bb565622ba3))
+    (pin "99" (uuid f4a37539-557b-4feb-ac20-8741e27e3bc9))
+    (pin "20" (uuid 23a40769-b473-4b06-8899-98f65e9d6ecc))
+    (pin "84" (uuid a9891aed-51a3-4526-af80-090f064dd9a8))
+    (pin "129" (uuid 168aa497-fa4c-4a84-a15f-10cb4d89cef2))
+    (pin "90" (uuid 23992d9a-f1fd-4501-88a9-a9c4dc3d457e))
+    (pin "21" (uuid 8dce8c84-d690-40e8-bf2d-a299a1dc8aee))
+    (pin "41" (uuid 883f570a-45f8-434c-a89a-bf79f31500fc))
+    (pin "59" (uuid fec9e5b0-a465-4444-bf16-a3eb80e89368))
+    (pin "122" (uuid 9dc45f1b-68b5-4604-8847-bffd1994ba7f))
+    (pin "19" (uuid e5dc5ee2-05ab-4c70-97b8-f0da933f9176))
+    (pin "14" (uuid 44db57a8-55a1-4f54-b6f5-590a8061ecd6))
+    (pin "130" (uuid 4f2e8156-55b0-4b6d-bbee-4d7f1c647f8e))
+    (pin "54" (uuid a0d95b5c-86d3-48c2-b7e6-256fc7d5109e))
+    (pin "23" (uuid 2f252860-8b72-424e-922b-2fe04948286a))
+    (pin "2" (uuid 2d422778-8011-4135-942e-a7845ccf1015))
+    (pin "71" (uuid 6b70b406-36a6-4ee7-8aad-0daaefb9dbe4))
+    (pin "97" (uuid 903a59b6-b56c-4b7c-b75e-b65ef3498132))
+    (pin "13" (uuid 9dbfda89-b8dc-40e3-8319-38000821013a))
+    (pin "83" (uuid 8ffa3255-e361-43fe-906f-0e6bf573bcdf))
+    (pin "88" (uuid f1c19efb-7359-4f0b-8443-53570b694ff5))
+    (pin "15" (uuid f121c0e1-3dae-4ab7-a3b8-c75709e77d94))
+    (pin "55" (uuid e1080a0c-1388-4990-8f6b-b23c22bf7a6a))
+    (pin "131" (uuid 3ba24002-f922-4e2b-b4c1-4bb089afc591))
+    (pin "144" (uuid 4e408382-83c0-4711-a863-8c05f84ba258))
+    (pin "70" (uuid 483aa573-a282-4167-96a9-27fec164d439))
+    (pin "94" (uuid 9d44cfbd-eb3e-45c7-89dc-bd194bd80ce5))
+    (pin "136" (uuid c19a7374-773e-4fea-9f4f-99db65a58b28))
+    (pin "63" (uuid e8bc8370-f4dd-43d5-8fda-461d01e2683a))
+    (pin "135" (uuid e5de193a-d043-4642-a3af-2587a7a26dde))
+    (pin "92" (uuid babd4d5e-87b8-4315-b385-24a8c276c083))
+    (pin "60" (uuid 39cf9d48-98e2-4f55-a2dd-3443ce3fc329))
+    (pin "35" (uuid f6d73366-94c2-4cd0-8c34-280bb093dae4))
+    (pin "34" (uuid 82de0d8f-60d3-4318-8464-26e99a1c535c))
+    (pin "27" (uuid 69310a21-3a18-4a53-9311-b603868063eb))
+    (pin "124" (uuid 4e28662a-ef43-46c5-8cfc-991347d048aa))
+    (pin "134" (uuid 3e9299ff-76df-4057-8b5c-dfe032e597de))
+    (pin "75" (uuid 93855f36-1c89-4353-925e-3cc0c4404df9))
+    (pin "98" (uuid b77fbd3f-4deb-406d-bfa4-05cf6c0b70ec))
+    (pin "121" (uuid dd057820-fd7b-4441-8fc8-57fbc9b9a9a5))
+    (pin "96" (uuid e71d999c-9bca-4db2-9f94-478f7a0499af))
+    (pin "86" (uuid bed7b9b6-b1d7-4efb-afde-ccace4c7ef54))
+    (pin "32" (uuid d50ec313-d50e-4cb5-8647-2b298f13a1a2))
+    (pin "93" (uuid 512338dc-3f69-46df-ba7d-4bd1302b0577))
+    (pin "69" (uuid bbaaabf7-df0c-462e-b449-aaa5fde91f36))
+    (pin "132" (uuid db5974ca-8493-445f-8803-5e137d99729e))
+    (pin "7" (uuid 0f0aa459-1da5-41dd-bfd3-1c8b85c76510))
+    (pin "62" (uuid 265ee592-1f58-48dd-a5e9-0306dae547d3))
+    (pin "26" (uuid 0f2de04e-4866-4cf8-86bc-aaebdf6e1e7e))
+    (pin "74" (uuid 792f6529-fb53-403c-9bef-4c72b0bfb121))
+    (pin "113" (uuid 44ebf2af-bb10-4450-8424-0c86dbbd4c3b))
+    (pin "50" (uuid b8537566-45a2-4bd9-a60d-f096b66ec1b9))
+    (pin "105" (uuid 9426ee65-9816-4cda-bd33-47d89a8572d5))
+    (pin "64" (uuid 58a3faf1-48ee-4f5e-96c1-fd300d82b2c4))
+    (pin "120" (uuid dcd5fedc-6c85-4fd8-98a1-d0758b36d33a))
+    (pin "119" (uuid a62c5382-a987-417f-9fbb-b426659edb44))
+    (pin "125" (uuid 86017e64-d4c0-4156-8b09-8dad0a43a209))
+    (pin "52" (uuid 58131be5-c08a-47cd-a753-77fadaf805f4))
+    (pin "72" (uuid b05a9782-f34d-40ec-b67e-6a49aacd6a24))
+    (pin "9" (uuid 0c497447-2c1d-4023-bdde-0528fa6a884a))
+    (pin "24" (uuid edfc42c8-f336-4f7f-9674-11954d236d2a))
+    (pin "66" (uuid 02043466-b9ef-4c39-9dbd-851312e1d617))
+    (pin "95" (uuid e9374e0c-dbc4-4859-b280-7b550806279a))
+    (pin "16" (uuid ac7edd53-be2f-4ac8-8ece-07d6a556ca2f))
+    (pin "18" (uuid d85b0992-04ae-40e6-838d-e735e3f1936c))
+    (pin "123" (uuid c0db1ce3-5caf-422d-8d0f-cd3f28a0a02b))
+    (pin "57" (uuid 2fe41686-35cf-4572-a78c-a0d23e7a233b))
+    (pin "68" (uuid 53633a2c-e696-4722-8b56-ba0ce2b7df1f))
+    (pin "67" (uuid 4b2cca83-0dfd-458c-88b1-1ff970339b90))
+    (pin "143" (uuid 7430c191-7919-4945-a744-bcb4141f127a))
+    (pin "80" (uuid e4ef9bff-49a7-4c43-9520-4427ede73b9e))
+    (pin "91" (uuid 0c69474e-55be-42cf-a832-46588ff6a3b3))
+    (pin "17" (uuid e8c7c3ac-dd43-4f38-9157-df593f8cd3ec))
+    (pin "51" (uuid cabb47c6-e5da-42f7-bba9-ffbaf1b1ba27))
+    (pin "12" (uuid ac5e140a-8ce1-40b2-aee9-62ee34711243))
+    (pin "58" (uuid 6d7846b9-cdea-4860-be45-16b6f214e56e))
+    (pin "53" (uuid 53e20f44-0724-40fb-9985-ab31890717c9))
+    (pin "46" (uuid a080dbf5-f114-46fc-9bf7-454695fdc3f6))
+    (pin "111" (uuid 1ec23e7b-c1ff-4947-9167-66a3bbbdc583))
+    (pin "115" (uuid 9d240baf-7a61-4819-8f2e-49c9bad8f8c1))
+    (pin "114" (uuid d6bc0be8-97d9-4d6d-b66b-07272b67f82a))
+    (pin "104" (uuid 45205755-0119-4818-aace-9916e55e2796))
+    (pin "11" (uuid 538a16db-0679-49b6-949d-53c745795ea9))
+    (pin "110" (uuid c20ab07e-0f32-4abf-8aa0-7deee2709d56))
+    (pin "100" (uuid 430aba2d-8a11-49fb-9129-f8cddee305c5))
+    (pin "102" (uuid 1ae29f58-eca2-44cd-b883-2ce58658ce82))
+    (pin "42" (uuid 93c72ba1-7cde-4706-bf38-78381fc42732))
+    (pin "126" (uuid 9d2e4864-f7ae-4b6b-8efb-2ef8db2f7279))
+    (pin "45" (uuid 2c796474-8828-4e15-ade9-f1574265d7f5))
+    (pin "107" (uuid 58a30dc1-d619-4551-abbd-4c7703f0ac5f))
+    (pin "106" (uuid 8f07f305-a54f-4b83-9633-199f16f9498e))
+    (pin "43" (uuid d2552b20-9b7f-4e88-a39e-3cf5312199dd))
+    (pin "117" (uuid 7a6d087f-0bc4-4616-bae9-c33d95416d43))
+    (pin "10" (uuid 14118468-62f0-4a82-b75e-97dcc4026e2a))
+    (pin "1" (uuid ee31e0b4-20d5-48b9-9cc3-166d8f0e9a6f))
+    (pin "44" (uuid b331ee6c-cc0e-486e-88b2-230276b43f2e))
+    (pin "116" (uuid 81b7eaa3-4e17-482b-bd18-eaaea2176e7a))
+    (pin "109" (uuid 88e85745-3276-48c1-80b9-5c75aeaa5e88))
+    (pin "112" (uuid fc1274e5-7304-4078-84b6-7985342f18f2))
+    (pin "103" (uuid 17781443-a228-4d5d-915c-ff04b225a4ae))
+    (pin "101" (uuid fb4df9e7-57d5-499b-8c20-2b6c3dab9836))
+    (pin "47" (uuid b6fe757b-1940-473f-ae21-c2463b32cbcb))
+    (pin "108" (uuid 786ed9c0-2710-43e8-8589-a878082f83e9))
+    (pin "48" (uuid 3423c8bd-8cc3-4bc0-8470-e9bd6a721897))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "U301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "U1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "U701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3524,7 +3530,7 @@
   (symbol (lib_id "Device:C") (at 66.04 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c18942f-b69e-43e2-8b57-ab0aaa6a90ca)
-    (property "Reference" "C303" (at 69.85 36.83 0)
+    (property "Reference" "C3" (at 69.85 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 69.85 39.37 0)
@@ -3536,15 +3542,17 @@
     (property "Datasheet" "~" (at 66.04 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bbc46dcd-808e-4cac-9e1a-28bfc1615972))
-    (pin "1" (uuid d5d7f749-cc74-4a4c-9f03-1901e0809eaa))
+    (pin "2" (uuid c0db79de-b9ee-495f-a9df-9d3a5f43ec0e))
+    (pin "1" (uuid b7cdda90-ef0c-4efa-a955-e99276bc6bf1))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C303") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C3") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C703") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -3553,7 +3561,7 @@
   (symbol (lib_id "Device:C") (at 146.05 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fd7d1fa-c91c-4659-8031-c45a52a48297)
-    (property "Reference" "C314" (at 149.86 60.96 0)
+    (property "Reference" "C14" (at 149.86 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 149.86 63.5 0)
@@ -3565,15 +3573,17 @@
     (property "Datasheet" "~" (at 146.05 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ef9dccd8-4260-48c6-8cc4-357213eb993a))
-    (pin "1" (uuid 2ebcf7d9-e2af-4a36-a865-c84f17a73be1))
+    (pin "2" (uuid 879598c6-bcfc-44a4-a25d-9bdf7425b422))
+    (pin "1" (uuid 82389ce2-341e-418a-b98c-f8cfcd62a87e))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C314") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C14") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C714") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -3582,7 +3592,7 @@
   (symbol (lib_id "Device:LED") (at 39.37 74.93 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ab9d66d-03d0-4293-9c61-6a52a654af52)
-    (property "Reference" "D301" (at 46.99 73.66 90)
+    (property "Reference" "D1" (at 46.99 73.66 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LED Blue" (at 43.18 76.5175 90)
@@ -3594,15 +3604,17 @@
     (property "Datasheet" "~" (at 39.37 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4e2eb5ab-25f8-444a-bb53-d14948bdb1f7))
-    (pin "2" (uuid 2f5f7d2f-4ec1-4c45-ab5d-905397951dad))
+    (pin "1" (uuid d1bb8292-074a-40d0-9109-9142e838b21f))
+    (pin "2" (uuid f19dc5c8-78e3-4b36-aabd-d809e17aa8c7))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "D301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "D1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "D701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -3611,7 +3623,7 @@
   (symbol (lib_id "Device:C") (at 180.34 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e05b70b-7c00-4acf-8974-3acf519662f7)
-    (property "Reference" "C313" (at 184.15 36.83 0)
+    (property "Reference" "C13" (at 184.15 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 184.15 39.37 0)
@@ -3623,15 +3635,17 @@
     (property "Datasheet" "~" (at 180.34 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 915584b7-e4cf-4f29-9db9-214079417fc8))
-    (pin "1" (uuid 6903cd72-22e9-415d-abc7-f100710b998c))
+    (pin "2" (uuid 892d07fb-2ef5-4509-9ee4-1b07a2e97da2))
+    (pin "1" (uuid e967a002-ee50-40df-8abf-962b23ff87b1))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C313") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C13") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C713") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3640,7 +3654,7 @@
   (symbol (lib_id "power:GND") (at 157.48 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43f2b7c5-9bce-4f22-9a5e-5abf60aaa2df)
-    (property "Reference" "#PWR0303" (at 157.48 77.47 0)
+    (property "Reference" "#PWR011" (at 157.48 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 76.2 0)
@@ -3652,14 +3666,16 @@
     (property "Datasheet" "" (at 157.48 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2260c888-4ccf-46c5-a9f3-93d18a69fdaa))
+    (pin "1" (uuid 75b9f07b-46dc-431b-bd94-391f1b128012))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#PWR0303") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#PWR011") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#PWR0703") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -3668,7 +3684,7 @@
   (symbol (lib_id "Device:C") (at 88.9 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5392e173-d912-46d5-a385-630b82f25f8e)
-    (property "Reference" "C305" (at 92.71 36.83 0)
+    (property "Reference" "C5" (at 92.71 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 92.71 39.37 0)
@@ -3680,15 +3696,17 @@
     (property "Datasheet" "~" (at 88.9 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1c668b9f-83f9-4d29-8e69-d4e7c2f80e11))
-    (pin "1" (uuid 5f0e7ce1-789c-493f-8303-e91bdfd61a56))
+    (pin "2" (uuid cc7ff18b-0842-4ea1-8d73-d81a33cd8f39))
+    (pin "1" (uuid af5b493c-fd22-4c2b-9d0b-054f4e7e3760))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C305") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C5") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C705") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3697,7 +3715,7 @@
   (symbol (lib_id "power:GND") (at 180.34 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5aa3ac99-ad3b-4c7c-8b44-b5c1583b465a)
-    (property "Reference" "#PWR0302" (at 180.34 53.34 0)
+    (property "Reference" "#PWR010" (at 180.34 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 180.34 52.07 0)
@@ -3709,14 +3727,16 @@
     (property "Datasheet" "" (at 180.34 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 421c3e3d-e376-4071-8608-cefb8b25aece))
+    (pin "1" (uuid f14dbec8-ffff-466f-a4b0-6df9bea1cc6a))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#PWR0302") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#PWR010") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#PWR0702") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -3725,7 +3745,7 @@
   (symbol (lib_id "Device:R") (at 66.04 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f90be8d-a5ed-483f-ba9f-47c291c53a30)
-    (property "Reference" "R302" (at 66.04 77.47 90)
+    (property "Reference" "R2" (at 66.04 77.47 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 66.04 83.82 90)
@@ -3737,15 +3757,17 @@
     (property "Datasheet" "~" (at 66.04 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f206d81e-2b6c-4be9-8626-2be11b2bc061))
-    (pin "1" (uuid e97ecf0f-6300-47db-9e33-822c207a486e))
+    (pin "2" (uuid 0c2840c0-f58a-4934-b058-1098d7934f22))
+    (pin "1" (uuid 30d35ceb-559f-4067-88f4-9c579b0bd202))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "R302") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "R2") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "R702") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -3754,7 +3776,7 @@
   (symbol (lib_id "Device:C") (at 146.05 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72df6ffc-77e5-418c-af1c-5a320e73fe89)
-    (property "Reference" "C310" (at 149.86 36.83 0)
+    (property "Reference" "C10" (at 149.86 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 149.86 39.37 0)
@@ -3766,15 +3788,17 @@
     (property "Datasheet" "~" (at 146.05 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 2404b59d-d96d-4adb-bbf8-00813c8bcd4c))
-    (pin "1" (uuid a0830c3f-d392-401b-844b-df0bbad4b692))
+    (pin "2" (uuid 6298abe5-f41e-40e2-a5b2-722c965d870c))
+    (pin "1" (uuid e398e7e7-1215-45bc-94b9-9f677fd710c8))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C310") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C10") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C710") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -3783,7 +3807,7 @@
   (symbol (lib_id "Device:R") (at 39.37 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b0a338f-c46b-4654-86c4-33e4f73ca920)
-    (property "Reference" "R303" (at 41.91 86.36 0)
+    (property "Reference" "R3" (at 41.91 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Value" "10K" (at 39.4505 89.5213 90)
@@ -3795,15 +3819,17 @@
     (property "Datasheet" "~" (at 39.37 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 1b8a01e0-7acb-445e-920d-a14542b425bd))
-    (pin "1" (uuid 0ba10246-a268-42b3-a77a-ff9aa24fdcc1))
+    (pin "2" (uuid bc5bc5d7-2924-434a-9324-ee361471d406))
+    (pin "1" (uuid 5ddce415-ea7f-42d8-b73c-4ba9dabef265))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "R303") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "R3") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "R703") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3812,7 +3838,7 @@
   (symbol (lib_id "power:+3V3") (at 39.37 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8349ce6a-0d66-4d54-91c5-7fcb84f3d506)
-    (property "Reference" "#PWR0301" (at 39.37 33.02 0)
+    (property "Reference" "#PWR09" (at 39.37 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 39.37 24.13 0)
@@ -3824,14 +3850,16 @@
     (property "Datasheet" "" (at 39.37 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94f6ffc3-80dc-4099-8bb6-e3155124cd4f))
+    (pin "1" (uuid 7bbc0ed6-907c-4642-968f-aec2788c0e81))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#PWR0301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#PWR09") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#PWR0701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3840,7 +3868,7 @@
   (symbol (lib_id "Device:C") (at 157.48 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 865fbb93-290d-40e1-aab6-b50a5cdd0c60)
-    (property "Reference" "C315" (at 161.29 60.96 0)
+    (property "Reference" "C15" (at 161.29 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 161.29 63.5 0)
@@ -3852,15 +3880,17 @@
     (property "Datasheet" "~" (at 157.48 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e6d1e798-0ee8-4381-a0cb-60cdea535fd5))
-    (pin "1" (uuid 5b43cf99-62a2-40ae-8a24-16dfa9710408))
+    (pin "2" (uuid 1f2c741a-a3a5-483e-a335-2869951f503d))
+    (pin "1" (uuid 764f0d01-e8aa-4370-b3c9-eecc6d61275d))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C315") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C15") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C715") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -3869,7 +3899,7 @@
   (symbol (lib_id "Device:L") (at 88.9 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89d12c49-9592-4b9c-8352-20840406f7b6)
-    (property "Reference" "L301" (at 88.9 50.8 90)
+    (property "Reference" "L1" (at 88.9 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "600R@100Mhz" (at 88.9 53.34 90)
@@ -3881,15 +3911,17 @@
     (property "Datasheet" "~" (at 88.9 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 32152dc7-6cf4-41f7-a13f-8e97c8c7f657))
-    (pin "2" (uuid 37eff379-b10d-4b79-8c40-45d96bdccf86))
+    (pin "1" (uuid db1edd71-669d-443d-8d0f-ca5a4e64d7eb))
+    (pin "2" (uuid 1fa1cdf3-745d-47e4-bfc2-807fed9d0f22))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "L301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "L1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "L701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "L1") (unit 1)
         )
       )
     )
@@ -3898,7 +3930,7 @@
   (symbol (lib_id "Device:C") (at 168.91 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f57e6db-dcd4-4e33-8845-aea4161525dc)
-    (property "Reference" "C312" (at 172.72 36.83 0)
+    (property "Reference" "C12" (at 172.72 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 172.72 39.37 0)
@@ -3910,15 +3942,17 @@
     (property "Datasheet" "~" (at 168.91 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 5bd6bc7f-fba7-4770-8a8d-7b2e802a30d5))
-    (pin "1" (uuid 7844366d-1738-420b-b91a-4ae18bb44df5))
+    (pin "2" (uuid d56a9c2a-3ae6-432c-bc28-6b25e6988bb1))
+    (pin "1" (uuid 47e562e8-4d64-44c0-95d2-f9f4d4776b09))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C312") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C12") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C712") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3927,7 +3961,7 @@
   (symbol (lib_id "Device:R") (at 66.04 93.98 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91e1c192-ac27-4f86-837d-f918a166e58c)
-    (property "Reference" "R305" (at 66.04 87.63 90)
+    (property "Reference" "R5" (at 66.04 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 66.04 93.98 90)
@@ -3939,15 +3973,17 @@
     (property "Datasheet" "~" (at 66.04 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b57dea95-2063-4592-b71c-cfb66c0dc556))
-    (pin "1" (uuid 5e6c4d61-c828-44db-880b-f1f3ccf03817))
+    (pin "2" (uuid 59569355-15cc-4068-a252-40bf3cfdf368))
+    (pin "1" (uuid 564378df-8b4b-4b79-b7a5-d54337bd2ddd))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "R305") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "R5") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "R705") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -3956,7 +3992,7 @@
   (symbol (lib_id "Device:C") (at 134.62 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96b1fc7c-2e8e-4761-a458-f05d47f5d8b5)
-    (property "Reference" "C309" (at 138.43 36.83 0)
+    (property "Reference" "C9" (at 138.43 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 138.43 39.37 0)
@@ -3968,15 +4004,17 @@
     (property "Datasheet" "~" (at 134.62 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0b82bec0-3f7e-4ff6-b109-8b1f14066bbe))
-    (pin "1" (uuid 1cb4944f-d719-4029-b7f3-43db77cbfb7f))
+    (pin "2" (uuid b024fa08-c515-4e1b-ac05-506ec0bf0b0f))
+    (pin "1" (uuid cf452cdb-0773-4d7f-b43f-1ce3b464124f))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C309") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C9") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C709") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -3985,7 +4023,7 @@
   (symbol (lib_id "Device:C") (at 123.19 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9b5bc31e-eba9-4fd2-8ac6-62c49e798d34)
-    (property "Reference" "C308" (at 127 36.83 0)
+    (property "Reference" "C8" (at 127 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 127 39.37 0)
@@ -3997,15 +4035,17 @@
     (property "Datasheet" "~" (at 123.19 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid ad27371f-7f5d-4f19-b1c1-767683455cd1))
-    (pin "1" (uuid a2d6284c-d815-4959-ad1f-1e6d4bae9d3b))
+    (pin "2" (uuid 748e6ae8-88fb-43e5-b02a-879412221b79))
+    (pin "1" (uuid 92144f7e-5e4c-4300-bde5-de33a2d0b790))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C308") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C8") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C708") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4014,7 +4054,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 97.79 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c025f3c-9fe7-48a4-a8fb-3dab1cf3a700)
-    (property "Reference" "#FLG0301" (at 97.79 53.975 0)
+    (property "Reference" "#FLG01" (at 97.79 53.975 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 97.79 50.8 0)
@@ -4026,14 +4066,16 @@
     (property "Datasheet" "~" (at 97.79 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41fa054c-7c0c-4a88-91a0-da779a82e0c0))
+    (pin "1" (uuid 81b38042-7cc3-4518-b490-5e2cb455abb1))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#FLG0301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#FLG01") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#FLG0701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#FLG01") (unit 1)
         )
       )
     )
@@ -4042,7 +4084,7 @@
   (symbol (lib_id "Device:R") (at 66.04 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a597a31e-8cb9-4c5c-b75a-d24557fcba3d)
-    (property "Reference" "R301" (at 66.04 72.39 90)
+    (property "Reference" "R1" (at 66.04 72.39 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "10K" (at 66.04 78.74 90)
@@ -4054,15 +4096,17 @@
     (property "Datasheet" "~" (at 66.04 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 177eecde-2ffa-4c82-b6a3-68133480f172))
-    (pin "1" (uuid 76f6566f-33b7-46b6-8759-cefa94baf8f7))
+    (pin "2" (uuid 179f08d8-0026-44e9-ae02-27977604ff36))
+    (pin "1" (uuid d1b77721-4e04-45ef-95fe-32b411017dea))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "R301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "R1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "R701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -4071,7 +4115,7 @@
   (symbol (lib_id "Device:C") (at 77.47 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa829265-a14e-4b47-af73-93c9aaa1f812)
-    (property "Reference" "C304" (at 81.28 36.83 0)
+    (property "Reference" "C4" (at 81.28 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 81.28 39.37 0)
@@ -4083,15 +4127,17 @@
     (property "Datasheet" "~" (at 77.47 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a89fe399-d8ef-42c2-9e4a-e7c8f1f70709))
-    (pin "1" (uuid 35b2fbd1-4e5a-40ef-8d18-785d167d007c))
+    (pin "2" (uuid caf34159-ec02-4d4a-895d-2a2ccab795ec))
+    (pin "1" (uuid df58799e-adbc-4f83-a1da-5f2370b279d1))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C304") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C4") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C704") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -4100,7 +4146,7 @@
   (symbol (lib_id "Device:C") (at 157.48 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b32b7b23-fdf3-4314-b2aa-384f44a06c63)
-    (property "Reference" "C311" (at 161.29 36.83 0)
+    (property "Reference" "C11" (at 161.29 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 161.29 39.37 0)
@@ -4112,15 +4158,17 @@
     (property "Datasheet" "~" (at 157.48 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 0e7a932f-9ea9-44a3-ab2f-ec0ab69fbde7))
-    (pin "1" (uuid 995621c0-d66d-4122-8dfd-82696e078119))
+    (pin "2" (uuid 88aa1148-8cab-4458-a6d5-948c1859b63b))
+    (pin "1" (uuid 9fb82850-f0a3-4e22-b6c2-42d01d4081b1))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C311") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C11") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C711") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4129,7 +4177,7 @@
   (symbol (lib_id "Device:R") (at 66.04 88.9 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cd31ffac-85be-4eea-a947-c3de17bd76dd)
-    (property "Reference" "R304" (at 66.04 82.55 90)
+    (property "Reference" "R4" (at 66.04 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "0R" (at 66.04 88.9 90)
@@ -4141,15 +4189,17 @@
     (property "Datasheet" "~" (at 66.04 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 3bcab3ae-fd08-47f8-af33-f7aaedd225f6))
-    (pin "1" (uuid 977a0f66-5699-47ed-afcf-5deb0fa4f86f))
+    (pin "2" (uuid 52bc63ac-86a5-4687-b7f3-cd07bd9f1e14))
+    (pin "1" (uuid 68341fe5-15be-465c-a1cd-5fad75c1dbd2))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "R304") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "R4") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "R704") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -4158,7 +4208,7 @@
   (symbol (lib_id "power:GND") (at 64.77 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce699397-c162-4c58-9f9f-3aa93faf0e99)
-    (property "Reference" "#PWR0305" (at 64.77 269.24 0)
+    (property "Reference" "#PWR013" (at 64.77 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 267.97 0)
@@ -4170,14 +4220,16 @@
     (property "Datasheet" "" (at 64.77 262.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 141cb7b0-69e0-48c2-a65a-8d76945a1e2b))
+    (pin "1" (uuid b60e4f8d-c98a-40aa-bfff-7f5ff432b1ec))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#PWR0305") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#PWR013") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#PWR0705") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4186,7 +4238,7 @@
   (symbol (lib_id "power:GND") (at 39.37 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d01b75d1-d2f6-4658-9e07-d3594a4958b2)
-    (property "Reference" "#PWR0304" (at 39.37 100.33 0)
+    (property "Reference" "#PWR012" (at 39.37 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 99.06 0)
@@ -4198,14 +4250,16 @@
     (property "Datasheet" "" (at 39.37 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2692751f-d473-45ea-98fb-f39e7908ee06))
+    (pin "1" (uuid c9504b2e-c9c9-4043-80ab-0b827061bf44))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "#PWR0304") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "#PWR012") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "#PWR0704") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4214,7 +4268,7 @@
   (symbol (lib_id "Device:C") (at 77.47 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2d34021-3f66-479f-b158-d358552104b1)
-    (property "Reference" "C317" (at 81.28 243.84 0)
+    (property "Reference" "C17" (at 81.28 243.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 81.28 246.38 0)
@@ -4226,15 +4280,17 @@
     (property "Datasheet" "~" (at 77.47 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bd5dc413-e2ef-476a-b24f-567698061fce))
-    (pin "1" (uuid d8497960-4422-4aa0-9270-740ec10d5aa8))
+    (pin "2" (uuid 9952606f-9803-4ebb-92c8-9b0274ad8cfb))
+    (pin "1" (uuid c78d6c6d-6d70-49a4-b151-811f9a5db4c8))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C317") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C17") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C717") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -4243,7 +4299,7 @@
   (symbol (lib_id "Device:C") (at 111.76 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d62e6435-d44c-464b-93c7-3bec414c9c6d)
-    (property "Reference" "C307" (at 115.57 36.83 0)
+    (property "Reference" "C7" (at 115.57 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 115.57 39.37 0)
@@ -4255,15 +4311,17 @@
     (property "Datasheet" "~" (at 111.76 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9095297d-5a88-4942-a850-6e92a67c3a1a))
-    (pin "1" (uuid 28854973-7ada-4b36-b279-5c1c1d489185))
+    (pin "2" (uuid e49ddc3c-9d67-43e7-99fc-20e202944ea5))
+    (pin "1" (uuid f5d9ad6a-237e-47d5-ba97-e1789c55bd3b))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C307") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C7") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C707") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -4272,7 +4330,7 @@
   (symbol (lib_id "Device:C") (at 100.33 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed094156-00a3-4bf1-9b41-597c8c8cff6a)
-    (property "Reference" "C306" (at 104.14 36.83 0)
+    (property "Reference" "C6" (at 104.14 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 104.14 39.37 0)
@@ -4284,15 +4342,17 @@
     (property "Datasheet" "~" (at 100.33 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 4cd39746-910e-4263-9425-af8e0449fe13))
-    (pin "1" (uuid d14d922c-5248-43be-80b6-7dea03ad35bf))
+    (pin "2" (uuid d38fdb34-d725-4ff0-9861-00c8e7ee7f6d))
+    (pin "1" (uuid e8e7cc57-14c9-4d96-8120-9fdf50a1acfa))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C306") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C6") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C706") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4301,7 +4361,7 @@
   (symbol (lib_id "Device:C") (at 43.18 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f07adbc2-7e78-4f6e-9369-01a1c8e38db2)
-    (property "Reference" "C301" (at 46.99 36.83 0)
+    (property "Reference" "C1" (at 46.99 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 46.99 39.37 0)
@@ -4313,15 +4373,17 @@
     (property "Datasheet" "~" (at 43.18 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid bb2bb572-a5ba-40ad-8c82-cebcf0c49901))
-    (pin "1" (uuid 9d514e8d-8f99-44af-9ec9-e4f29a73e576))
+    (pin "2" (uuid 9c60fa6f-c982-4d9b-a217-8b4e196be77f))
+    (pin "1" (uuid f7354620-bfff-4c5b-b3bf-f6020adb407d))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C301") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C1") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C701") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -4330,7 +4392,7 @@
   (symbol (lib_id "Device:C") (at 64.77 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff4e4796-7542-4b6e-aba2-eaf7a0e00bea)
-    (property "Reference" "C316" (at 68.58 243.84 0)
+    (property "Reference" "C16" (at 68.58 243.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2u" (at 68.58 246.38 0)
@@ -4342,15 +4404,17 @@
     (property "Datasheet" "~" (at 64.77 245.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 14da9913-0b52-4538-a503-81d4572d36ee))
-    (pin "1" (uuid c8413052-6956-447c-9833-e2780a2fd474))
+    (pin "2" (uuid 1becbf54-970d-43e7-8d4f-629eb056ae99))
+    (pin "1" (uuid 343ebb62-9dad-4a1b-b428-c7e1fbf431fa))
     (instances
-      (project "cad-enc-dec"
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/7b82f1b8-f670-4c54-86aa-68b09b673554/9d525844-2ea9-4507-bf31-0ce9d3350fdc"
-          (reference "C316") (unit 1)
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
+          (reference "C16") (unit 1)
         )
-        (path "/894df1c3-1a5d-48b0-9966-84d5c2c2c705/0815129a-f835-434b-a91c-b449ee32428d/d3889094-4cbd-4fa5-86a9-266602c4833c"
-          (reference "C716") (unit 1)
+      )
+      (project "receiver"
+        (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
+          (reference "C16") (unit 1)
         )
       )
     )

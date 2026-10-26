@@ -1839,7 +1839,7 @@
     (effects (font (size 3.048 3.048) (thickness 0.6096) bold) (justify left top))
     (uuid 6b88a2e1-5293-4a19-a04a-59d9cdbf8bc1)
   )
-  (text_box "Expansion header"
+  (text_box "Expansion socket"
     (at 457.2 254 0) (size 38.1 63.5)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -2867,7 +2867,7 @@
   (symbol (lib_id "power:+5V") (at 461.01 524.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 07a43abe-104b-464f-b741-53ee092a1fa6)
-    (property "Reference" "#PWR03" (at 461.01 528.32 0)
+    (property "Reference" "#PWR07" (at 461.01 528.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 461.01 519.43 0)
@@ -2883,7 +2883,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -2892,7 +2892,7 @@
   (symbol (lib_id "power:GND") (at 462.28 473.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08c296bf-6db2-4f00-925f-15b8ce5a6d23)
-    (property "Reference" "#PWR02" (at 462.28 480.06 0)
+    (property "Reference" "#PWR06" (at 462.28 480.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 462.28 478.79 0)
@@ -2908,7 +2908,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2917,7 +2917,7 @@
   (symbol (lib_id "power:GND") (at 491.49 306.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13cbff83-0cfd-4c36-a84d-df7ade500935)
-    (property "Reference" "#PWR08" (at 491.49 312.42 0)
+    (property "Reference" "#PWR04" (at 491.49 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 491.49 311.15 0)
@@ -2933,7 +2933,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2942,7 +2942,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 474.98 529.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2de6fc6d-a9fe-44da-9ba6-74e392229045)
-    (property "Reference" "J6" (at 476.25 518.16 0)
+    (property "Reference" "J7" (at 476.25 518.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x06_Odd_Even" (at 476.25 520.7 0)
@@ -2969,7 +2969,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "J6") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -3050,7 +3050,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 119.38 436.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42061362-a1a3-452e-b58c-afdf48e7bd27)
-    (property "Reference" "J4" (at 120.65 425.45 0)
+    (property "Reference" "J5" (at 120.65 425.45 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x06_Odd_Even" (at 120.65 427.99 0)
@@ -3077,7 +3077,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "J4") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -3122,7 +3122,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 480.06 466.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 534e2d44-5ecd-4929-945d-8d52e47c3e96)
-    (property "Reference" "J5" (at 482.6 466.09 0)
+    (property "Reference" "J6" (at 482.6 466.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x04" (at 482.6 468.63 0)
@@ -3141,7 +3141,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "J5") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -3150,7 +3150,7 @@
   (symbol (lib_id "power:+3V3") (at 462.28 461.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56e3eccd-994f-4c5b-9e79-e21a76af6d33)
-    (property "Reference" "#PWR01" (at 462.28 464.82 0)
+    (property "Reference" "#PWR05" (at 462.28 464.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 462.28 455.93 0)
@@ -3166,7 +3166,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3175,7 +3175,7 @@
   (symbol (lib_id "power:+5V") (at 461.01 278.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6a5c437e-d044-4de1-9dce-1df6fb48e888)
-    (property "Reference" "#PWR05" (at 461.01 281.94 0)
+    (property "Reference" "#PWR01" (at 461.01 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 461.01 273.05 0)
@@ -3191,7 +3191,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3200,7 +3200,7 @@
   (symbol (lib_id "power:+24V") (at 491.49 278.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70ec6c10-fd56-4695-9978-1b69120cc432)
-    (property "Reference" "#PWR06" (at 491.49 281.94 0)
+    (property "Reference" "#PWR02" (at 491.49 281.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+24V" (at 491.49 273.05 0)
@@ -3216,7 +3216,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -3261,7 +3261,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Odd_Even") (at 119.38 373.38 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0f76f0e-257b-4f24-8a3f-95b7f60e921a)
-    (property "Reference" "J3" (at 120.65 361.95 0)
+    (property "Reference" "J4" (at 120.65 361.95 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x06_Odd_Even" (at 120.65 364.49 0)
@@ -3288,7 +3288,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "J3") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -3297,7 +3297,7 @@
   (symbol (lib_id "power:GND") (at 491.49 537.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b33eb572-fc8d-4bd1-a159-4589b82eab6a)
-    (property "Reference" "#PWR04" (at 491.49 543.56 0)
+    (property "Reference" "#PWR08" (at 491.49 543.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 491.49 542.29 0)
@@ -3313,7 +3313,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3322,7 +3322,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x12_Odd_Even") (at 474.98 290.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b35ec094-8167-4764-9237-16a3bfb0949e)
-    (property "Reference" "J7" (at 476.25 271.78 0)
+    (property "Reference" "J3" (at 476.25 271.78 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_02x12_Odd_Even" (at 476.25 274.32 0)
@@ -3361,7 +3361,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "J7") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -3370,7 +3370,7 @@
   (symbol (lib_id "power:GND") (at 461.01 306.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d781fcc4-e378-4ac5-b505-e24bd81f7714)
-    (property "Reference" "#PWR07" (at 461.01 312.42 0)
+    (property "Reference" "#PWR03" (at 461.01 312.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 461.01 311.15 0)
@@ -3386,7 +3386,7 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )

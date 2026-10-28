@@ -3327,7 +3327,7 @@
   (symbol (lib_id "power:GND") (at 111.76 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 050febc4-fe10-4942-ac3f-94c02d751d75)
-    (property "Reference" "#PWR014" (at 111.76 269.24 0)
+    (property "Reference" "#PWR08" (at 111.76 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 267.97 0)
@@ -3343,12 +3343,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -3530,7 +3530,7 @@
   (symbol (lib_id "Device:C") (at 66.04 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1c18942f-b69e-43e2-8b57-ab0aaa6a90ca)
-    (property "Reference" "C3" (at 68.58 36.83 0)
+    (property "Reference" "C4" (at 68.58 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 68.58 39.37 0)
@@ -3547,12 +3547,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C3") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -3561,7 +3561,7 @@
   (symbol (lib_id "Device:C") (at 146.05 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fd7d1fa-c91c-4659-8031-c45a52a48297)
-    (property "Reference" "C14" (at 149.86 60.96 0)
+    (property "Reference" "C13" (at 149.86 60.96 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1uF" (at 149.86 63.5 0)
@@ -3578,12 +3578,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3623,7 +3623,7 @@
   (symbol (lib_id "Device:C") (at 180.34 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2e05b70b-7c00-4acf-8974-3acf519662f7)
-    (property "Reference" "C13" (at 182.88 36.83 0)
+    (property "Reference" "C17" (at 182.88 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 182.88 39.37 0)
@@ -3640,12 +3640,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C13") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C13") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -3654,7 +3654,7 @@
   (symbol (lib_id "power:GND") (at 157.48 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43f2b7c5-9bce-4f22-9a5e-5abf60aaa2df)
-    (property "Reference" "#PWR011" (at 157.48 77.47 0)
+    (property "Reference" "#PWR09" (at 157.48 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 76.2 0)
@@ -3670,12 +3670,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -3684,7 +3684,7 @@
   (symbol (lib_id "Device:C") (at 88.9 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5392e173-d912-46d5-a385-630b82f25f8e)
-    (property "Reference" "C5" (at 91.44 36.83 0)
+    (property "Reference" "C7" (at 91.44 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 91.44 39.37 0)
@@ -3701,12 +3701,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C5") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3745,7 +3745,7 @@
   (symbol (lib_id "Device:R") (at 66.04 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5f90be8d-a5ed-483f-ba9f-47c291c53a30)
-    (property "Reference" "R2" (at 66.04 81.788 90)
+    (property "Reference" "R3" (at 66.04 81.788 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 66.04 83.82 90)
@@ -3762,12 +3762,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "R2") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3776,7 +3776,7 @@
   (symbol (lib_id "Device:C") (at 146.05 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72df6ffc-77e5-418c-af1c-5a320e73fe89)
-    (property "Reference" "C10" (at 148.59 36.83 0)
+    (property "Reference" "C12" (at 148.59 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 148.59 39.37 0)
@@ -3793,12 +3793,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C10") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -3807,7 +3807,7 @@
   (symbol (lib_id "Device:R") (at 39.37 87.63 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7b0a338f-c46b-4654-86c4-33e4f73ca920)
-    (property "Reference" "R3" (at 37.338 87.63 90)
+    (property "Reference" "R1" (at 37.338 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 39.2895 85.7387 90)
@@ -3824,12 +3824,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "R3") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -3838,7 +3838,7 @@
   (symbol (lib_id "power:+3V3") (at 39.37 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8349ce6a-0d66-4d54-91c5-7fcb84f3d506)
-    (property "Reference" "#PWR09" (at 39.37 33.02 0)
+    (property "Reference" "#PWR05" (at 39.37 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 39.37 24.13 0)
@@ -3854,12 +3854,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -3930,7 +3930,7 @@
   (symbol (lib_id "Device:C") (at 168.91 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8f57e6db-dcd4-4e33-8845-aea4161525dc)
-    (property "Reference" "C12" (at 171.45 36.83 0)
+    (property "Reference" "C16" (at 171.45 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 171.45 39.37 0)
@@ -3947,12 +3947,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C12") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C12") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -3992,7 +3992,7 @@
   (symbol (lib_id "Device:C") (at 134.62 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 96b1fc7c-2e8e-4761-a458-f05d47f5d8b5)
-    (property "Reference" "C9" (at 137.16 36.83 0)
+    (property "Reference" "C11" (at 137.16 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 137.16 39.37 0)
@@ -4009,12 +4009,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C9") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -4023,7 +4023,7 @@
   (symbol (lib_id "Device:C") (at 123.19 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9b5bc31e-eba9-4fd2-8ac6-62c49e798d34)
-    (property "Reference" "C8" (at 125.73 36.83 0)
+    (property "Reference" "C10" (at 125.73 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 125.73 39.37 0)
@@ -4040,12 +4040,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C8") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -4084,7 +4084,7 @@
   (symbol (lib_id "Device:R") (at 66.04 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a597a31e-8cb9-4c5c-b75a-d24557fcba3d)
-    (property "Reference" "R1" (at 66.04 76.708 90)
+    (property "Reference" "R2" (at 66.04 76.708 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10K" (at 66.04 78.74 90)
@@ -4101,12 +4101,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "R1") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4115,7 +4115,7 @@
   (symbol (lib_id "Device:C") (at 77.47 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aa829265-a14e-4b47-af73-93c9aaa1f812)
-    (property "Reference" "C4" (at 80.01 36.83 0)
+    (property "Reference" "C5" (at 80.01 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 80.01 39.37 0)
@@ -4132,12 +4132,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C4") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -4146,7 +4146,7 @@
   (symbol (lib_id "Device:C") (at 157.48 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b32b7b23-fdf3-4314-b2aa-384f44a06c63)
-    (property "Reference" "C11" (at 160.02 36.83 0)
+    (property "Reference" "C14" (at 160.02 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 160.02 39.37 0)
@@ -4163,12 +4163,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C11") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -4208,7 +4208,7 @@
   (symbol (lib_id "power:GND") (at 64.77 262.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce699397-c162-4c58-9f9f-3aa93faf0e99)
-    (property "Reference" "#PWR013" (at 64.77 269.24 0)
+    (property "Reference" "#PWR07" (at 64.77 269.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 267.97 0)
@@ -4224,12 +4224,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4238,7 +4238,7 @@
   (symbol (lib_id "power:GND") (at 39.37 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d01b75d1-d2f6-4658-9e07-d3594a4958b2)
-    (property "Reference" "#PWR012" (at 39.37 100.33 0)
+    (property "Reference" "#PWR06" (at 39.37 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 39.37 99.06 0)
@@ -4254,12 +4254,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -4268,7 +4268,7 @@
   (symbol (lib_id "Device:C") (at 77.47 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2d34021-3f66-479f-b158-d358552104b1)
-    (property "Reference" "C17" (at 81.28 243.84 0)
+    (property "Reference" "C6" (at 81.28 243.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 81.28 246.38 0)
@@ -4285,12 +4285,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C17") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C17") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -4299,7 +4299,7 @@
   (symbol (lib_id "Device:C") (at 111.76 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d62e6435-d44c-464b-93c7-3bec414c9c6d)
-    (property "Reference" "C7" (at 114.3 36.83 0)
+    (property "Reference" "C9" (at 114.3 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 114.3 39.37 0)
@@ -4316,12 +4316,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C7") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -4330,7 +4330,7 @@
   (symbol (lib_id "Device:C") (at 100.33 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed094156-00a3-4bf1-9b41-597c8c8cff6a)
-    (property "Reference" "C6" (at 102.87 36.83 0)
+    (property "Reference" "C8" (at 102.87 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100nF" (at 102.87 39.37 0)
@@ -4347,12 +4347,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C6") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -4392,7 +4392,7 @@
   (symbol (lib_id "Device:C") (at 64.77 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ff4e4796-7542-4b6e-aba2-eaf7a0e00bea)
-    (property "Reference" "C16" (at 68.58 243.84 0)
+    (property "Reference" "C3" (at 68.58 243.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2.2uF" (at 68.58 246.38 0)
@@ -4409,12 +4409,12 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/5fc1b5e8-7e29-4578-9386-ada8c909ec79"
-          (reference "C16") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
       (project "receiver"
         (path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/e584bdc4-3328-414c-ba57-038b2b25ec2f"
-          (reference "C16") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )

@@ -1519,7 +1519,7 @@
   (symbol (lib_id "Device:R") (at 184.15 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 12095767-31c6-4241-a5a2-5e0ec15242e8)
-    (property "Reference" "R29" (at 189.23 76.2 90)
+    (property "Reference" "R31" (at 189.23 76.2 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 184.15 77.47 90)
@@ -1536,31 +1536,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R29") (unit 1)
+          (reference "R31") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R45") (unit 1)
+          (reference "R47") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R61") (unit 1)
+          (reference "R63") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R77") (unit 1)
+          (reference "R79") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R93") (unit 1)
+          (reference "R95") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R109") (unit 1)
+          (reference "R111") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R125") (unit 1)
+          (reference "R127") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R141") (unit 1)
+          (reference "R143") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R157") (unit 1)
+          (reference "R159") (unit 1)
         )
       )
     )
@@ -1618,7 +1618,7 @@
   (symbol (lib_id "Device:R") (at 233.68 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 181c8832-9bb7-4492-b054-91d85a1b2f90)
-    (property "Reference" "R136" (at 233.68 113.538 90)
+    (property "Reference" "R138" (at 233.68 113.538 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 233.68 115.57 90)
@@ -1635,31 +1635,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R136") (unit 1)
+          (reference "R138") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R104") (unit 1)
+          (reference "R106") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R152") (unit 1)
+          (reference "R154") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R120") (unit 1)
+          (reference "R122") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R168") (unit 1)
+          (reference "R170") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R72") (unit 1)
+          (reference "R74") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R56") (unit 1)
+          (reference "R58") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R88") (unit 1)
+          (reference "R90") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R40") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -1668,7 +1668,7 @@
   (symbol (lib_id "Device:R") (at 184.15 110.49 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 25a64144-f542-4c5a-a44e-a05a1e658e02)
-    (property "Reference" "R34" (at 189.23 109.22 90)
+    (property "Reference" "R36" (at 189.23 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 184.15 110.49 90)
@@ -1682,306 +1682,6 @@
     )
     (pin "1" (uuid 684371ed-d7c2-4804-b54c-45b8b35a5d5b))
     (pin "2" (uuid e9b497f7-8d50-4eea-a46b-0fc4a2ec66a1))
-    (instances
-      (project "transmitter"
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R34") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R50") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R66") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R82") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R98") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R114") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R130") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R146") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R162") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 233.68 107.95 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 330fc305-5e43-44f4-93bd-f24f910453e9)
-    (property "Reference" "R135" (at 233.68 105.918 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0R" (at 233.68 107.95 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 233.68 109.728 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "0Ω 75V Thick Film 1%" (at 233.68 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9f4adef5-1a8a-4a89-878d-e68bd85b2f55))
-    (pin "2" (uuid 406578b8-2d9b-47ef-9309-70e8bccdacb6))
-    (instances
-      (project "transmitter"
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R135") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R103") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R151") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R119") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R167") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R71") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R55") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R87") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R39") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 184.15 105.41 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5eeddfdd-1b30-41ac-b04c-57cf2305e6fa)
-    (property "Reference" "R33" (at 189.23 104.14 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 184.15 105.41 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 107.188 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 105.41 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 190071f0-b4eb-4df6-814e-9e1da608a070))
-    (pin "2" (uuid 6199cd04-c808-418e-9910-2f4029eabd05))
-    (instances
-      (project "transmitter"
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R33") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R49") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R65") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R81") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R97") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R113") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R129") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R145") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R161") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 184.15 113.03 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 66a0f6c6-b00c-4b39-87a8-0583cd15459a)
-    (property "Reference" "R35" (at 189.23 111.76 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 184.15 113.03 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 114.808 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 113.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 06df26d1-d381-4245-b35d-07ec4e735af8))
-    (pin "2" (uuid 8ef44232-0898-47de-8a1c-cf4f7dc41e27))
-    (instances
-      (project "transmitter"
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R35") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R51") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R67") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R83") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R99") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R115") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R131") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R147") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R163") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 166.37 107.95 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 71c91b37-7b29-4d7f-98ba-47543f2752b2)
-    (property "Reference" "R123" (at 171.45 106.68 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "100" (at 166.37 107.95 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 166.37 109.728 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "100Ω 75V Thick Film 1%" (at 166.37 107.95 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9d75fef5-df10-40a1-be2c-eeb16d3dc748))
-    (pin "2" (uuid 118aa031-69b3-48bc-b144-80959d4848a5))
-    (instances
-      (project "transmitter"
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R123") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R91") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R139") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R107") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R155") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R59") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R43") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R75") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 184.15 85.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7286690b-8abb-4fae-ae54-2d356308e15e)
-    (property "Reference" "R31" (at 189.23 83.82 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 184.15 85.09 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 86.868 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a412093c-3cbc-44a3-9678-e6da9f6773a1))
-    (pin "2" (uuid 2880a6dc-a38b-43a2-bf8f-05eb90956052))
-    (instances
-      (project "transmitter"
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R31") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R47") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R63") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R79") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R95") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R111") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R127") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R143") (unit 1)
-        )
-        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R159") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 184.15 118.11 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 74ab1aa1-915e-47cd-b2b1-3d2cc7d343d3)
-    (property "Reference" "R36" (at 189.23 116.84 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "10" (at 184.15 118.11 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 119.888 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 118.11 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e7e85431-c7a8-490e-8340-99e1ac474151))
-    (pin "2" (uuid c2dc5c38-8f00-465f-83dd-5f6dd6e177cc))
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
@@ -2015,10 +1715,310 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 233.68 107.95 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 330fc305-5e43-44f4-93bd-f24f910453e9)
+    (property "Reference" "R137" (at 233.68 105.918 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "0R" (at 233.68 107.95 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 233.68 109.728 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "0Ω 75V Thick Film 1%" (at 233.68 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9f4adef5-1a8a-4a89-878d-e68bd85b2f55))
+    (pin "2" (uuid 406578b8-2d9b-47ef-9309-70e8bccdacb6))
+    (instances
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
+          (reference "R137") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
+          (reference "R105") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
+          (reference "R153") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
+          (reference "R121") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
+          (reference "R169") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
+          (reference "R73") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
+          (reference "R57") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
+          (reference "R89") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
+          (reference "R41") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 184.15 105.41 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5eeddfdd-1b30-41ac-b04c-57cf2305e6fa)
+    (property "Reference" "R35" (at 189.23 104.14 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10" (at 184.15 105.41 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 107.188 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 105.41 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 190071f0-b4eb-4df6-814e-9e1da608a070))
+    (pin "2" (uuid 6199cd04-c808-418e-9910-2f4029eabd05))
+    (instances
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
+          (reference "R35") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
+          (reference "R51") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
+          (reference "R67") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
+          (reference "R83") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
+          (reference "R99") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
+          (reference "R115") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
+          (reference "R131") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
+          (reference "R147") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
+          (reference "R163") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 184.15 113.03 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 66a0f6c6-b00c-4b39-87a8-0583cd15459a)
+    (property "Reference" "R37" (at 189.23 111.76 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10" (at 184.15 113.03 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 114.808 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 113.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 06df26d1-d381-4245-b35d-07ec4e735af8))
+    (pin "2" (uuid 8ef44232-0898-47de-8a1c-cf4f7dc41e27))
+    (instances
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
+          (reference "R37") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
+          (reference "R53") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
+          (reference "R69") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
+          (reference "R85") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
+          (reference "R101") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
+          (reference "R117") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
+          (reference "R133") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
+          (reference "R149") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
+          (reference "R165") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 166.37 107.95 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 71c91b37-7b29-4d7f-98ba-47543f2752b2)
+    (property "Reference" "R125" (at 171.45 106.68 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100" (at 166.37 107.95 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 166.37 109.728 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "100Ω 75V Thick Film 1%" (at 166.37 107.95 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9d75fef5-df10-40a1-be2c-eeb16d3dc748))
+    (pin "2" (uuid 118aa031-69b3-48bc-b144-80959d4848a5))
+    (instances
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
+          (reference "R125") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
+          (reference "R93") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
+          (reference "R141") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
+          (reference "R109") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
+          (reference "R157") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
+          (reference "R61") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
+          (reference "R45") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
+          (reference "R77") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
+          (reference "R29") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 184.15 85.09 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7286690b-8abb-4fae-ae54-2d356308e15e)
+    (property "Reference" "R33" (at 189.23 83.82 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10" (at 184.15 85.09 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 86.868 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a412093c-3cbc-44a3-9678-e6da9f6773a1))
+    (pin "2" (uuid 2880a6dc-a38b-43a2-bf8f-05eb90956052))
+    (instances
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
+          (reference "R33") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
+          (reference "R49") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
+          (reference "R65") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
+          (reference "R81") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
+          (reference "R97") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
+          (reference "R113") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
+          (reference "R129") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
+          (reference "R145") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
+          (reference "R161") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 184.15 118.11 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74ab1aa1-915e-47cd-b2b1-3d2cc7d343d3)
+    (property "Reference" "R38" (at 189.23 116.84 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "10" (at 184.15 118.11 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 184.15 119.888 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "10Ω 75V Thick Film 1%" (at 184.15 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e7e85431-c7a8-490e-8340-99e1ac474151))
+    (pin "2" (uuid c2dc5c38-8f00-465f-83dd-5f6dd6e177cc))
+    (instances
+      (project "transmitter"
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
+          (reference "R38") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
+          (reference "R54") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
+          (reference "R70") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
+          (reference "R86") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
+          (reference "R102") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
+          (reference "R118") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
+          (reference "R134") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
+          (reference "R150") (unit 1)
+        )
+        (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
+          (reference "R166") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:R") (at 184.15 82.55 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 78f77bd4-2a88-4f74-acac-21d1b0293102)
-    (property "Reference" "R30" (at 189.23 81.28 90)
+    (property "Reference" "R32" (at 189.23 81.28 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 184.15 82.55 90)
@@ -2035,31 +2035,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R30") (unit 1)
+          (reference "R32") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R46") (unit 1)
+          (reference "R48") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R62") (unit 1)
+          (reference "R64") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R78") (unit 1)
+          (reference "R80") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R94") (unit 1)
+          (reference "R96") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R110") (unit 1)
+          (reference "R112") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R126") (unit 1)
+          (reference "R128") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R142") (unit 1)
+          (reference "R144") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R158") (unit 1)
+          (reference "R160") (unit 1)
         )
       )
     )
@@ -2132,7 +2132,7 @@
   (symbol (lib_id "Device:R") (at 166.37 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 805536cd-c61e-4019-b224-91558cf28690)
-    (property "Reference" "R122" (at 171.45 86.36 90)
+    (property "Reference" "R124" (at 171.45 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 166.37 87.63 90)
@@ -2149,31 +2149,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R122") (unit 1)
+          (reference "R124") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R90") (unit 1)
+          (reference "R92") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R138") (unit 1)
+          (reference "R140") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R106") (unit 1)
+          (reference "R108") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R154") (unit 1)
+          (reference "R156") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R58") (unit 1)
+          (reference "R60") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R42") (unit 1)
+          (reference "R44") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R74") (unit 1)
+          (reference "R76") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R26") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2236,7 +2236,7 @@
   (symbol (lib_id "Device:R") (at 166.37 115.57 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad3438ef-8e72-46d4-b7a3-c9f3df658be8)
-    (property "Reference" "R124" (at 171.45 114.3 90)
+    (property "Reference" "R126" (at 171.45 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 166.37 115.57 90)
@@ -2253,31 +2253,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R124") (unit 1)
+          (reference "R126") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R92") (unit 1)
+          (reference "R94") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R140") (unit 1)
+          (reference "R142") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R108") (unit 1)
+          (reference "R110") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R156") (unit 1)
+          (reference "R158") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R60") (unit 1)
+          (reference "R62") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R44") (unit 1)
+          (reference "R46") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R76") (unit 1)
+          (reference "R78") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R28") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2340,7 +2340,7 @@
   (symbol (lib_id "Device:R") (at 233.68 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c277ba85-6782-48f1-892a-73fe462e0fb1)
-    (property "Reference" "R133" (at 233.68 77.978 90)
+    (property "Reference" "R135" (at 233.68 77.978 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 233.68 80.01 90)
@@ -2357,31 +2357,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R133") (unit 1)
+          (reference "R135") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R101") (unit 1)
+          (reference "R103") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R149") (unit 1)
+          (reference "R151") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R117") (unit 1)
+          (reference "R119") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R165") (unit 1)
+          (reference "R167") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R69") (unit 1)
+          (reference "R71") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R53") (unit 1)
+          (reference "R55") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R85") (unit 1)
+          (reference "R87") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R37") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -2439,7 +2439,7 @@
   (symbol (lib_id "Device:R") (at 166.37 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceaea790-5ed3-497e-89f3-ddc54bcca89c)
-    (property "Reference" "R121" (at 171.45 78.74 90)
+    (property "Reference" "R123" (at 171.45 78.74 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100" (at 166.37 80.01 90)
@@ -2456,31 +2456,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R121") (unit 1)
+          (reference "R123") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R89") (unit 1)
+          (reference "R91") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R137") (unit 1)
+          (reference "R139") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R105") (unit 1)
+          (reference "R107") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R153") (unit 1)
+          (reference "R155") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R57") (unit 1)
+          (reference "R59") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R41") (unit 1)
+          (reference "R43") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R73") (unit 1)
+          (reference "R75") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R25") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -2587,7 +2587,7 @@
   (symbol (lib_id "Device:R") (at 233.68 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd3c4f81-8f9a-420d-b4f5-97b7569880d2)
-    (property "Reference" "R134" (at 233.68 85.598 90)
+    (property "Reference" "R136" (at 233.68 85.598 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0R" (at 233.68 87.63 90)
@@ -2604,31 +2604,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R134") (unit 1)
+          (reference "R136") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R102") (unit 1)
+          (reference "R104") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R150") (unit 1)
+          (reference "R152") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R118") (unit 1)
+          (reference "R120") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R166") (unit 1)
+          (reference "R168") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R70") (unit 1)
+          (reference "R72") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R54") (unit 1)
+          (reference "R56") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R86") (unit 1)
+          (reference "R88") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R38") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -2637,7 +2637,7 @@
   (symbol (lib_id "Device:R") (at 184.15 90.17 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff924712-0caa-46a0-b98c-40e983437cf4)
-    (property "Reference" "R32" (at 189.23 88.9 90)
+    (property "Reference" "R34" (at 189.23 88.9 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 184.15 90.17 90)
@@ -2654,31 +2654,31 @@
     (instances
       (project "transmitter"
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/1a0ded2f-1806-462f-b344-986ce80f7a21"
-          (reference "R32") (unit 1)
+          (reference "R34") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/17430f72-438e-4d7b-84bf-e2d07ef9ee42"
-          (reference "R48") (unit 1)
+          (reference "R50") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c2b49dcc-70b5-4999-9b35-6cde111629b2"
-          (reference "R64") (unit 1)
+          (reference "R66") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/e6d8953b-af00-43d2-8c50-6fea1bbcc3aa"
-          (reference "R80") (unit 1)
+          (reference "R82") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/c4e61f43-2b57-4f75-8e12-778585808b30"
-          (reference "R96") (unit 1)
+          (reference "R98") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/782a2114-48b1-4d88-9a0f-8693955d3796"
-          (reference "R112") (unit 1)
+          (reference "R114") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/2b45c442-1bb7-4558-aa5d-7dda51d8c9f1"
-          (reference "R128") (unit 1)
+          (reference "R130") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/f665484f-a397-4e07-8e11-42b39795f1a2"
-          (reference "R144") (unit 1)
+          (reference "R146") (unit 1)
         )
         (path "/160bc021-7170-4ef0-8809-e0572df97a97/a8bf209c-0809-40af-81ea-f8f14d0ecce6"
-          (reference "R160") (unit 1)
+          (reference "R162") (unit 1)
         )
       )
     )

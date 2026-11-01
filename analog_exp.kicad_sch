@@ -943,6 +943,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1358,6 +1457,28 @@
 			(justify left top)
 		)
 		(uuid "15632984-8906-4446-a379-bdf8c4275006")
+	)
+	(text_box "Mounting"
+		(exclude_from_sim no)
+		(at 482.6 304.8 0)
+		(size 38.1 38.1)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 3.048 3.048)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left top)
+		)
+		(uuid "9438fe5f-18e6-48b0-b4e1-3c3d015063ab")
 	)
 	(text_box "External supply"
 		(exclude_from_sim no)
@@ -5086,6 +5207,82 @@
 		(uuid "ff99fdb5-b56c-4324-ae1d-ad55aed66dc1")
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 491.49 316.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08201531-0169-4ef7-b084-e7421b078d13")
+		(property "Reference" "H1"
+			(at 494.03 314.9599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 494.03 317.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 491.49 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "M3"
+			(at 491.49 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 491.49 316.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
 		(at 132.08 492.76 0)
 		(unit 1)
@@ -5097,7 +5294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "110845e0-26a6-4050-8f15-8a303b4c8a24")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 134.62 492.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5130,7 +5327,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131342.html"
 			(at 132.08 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -5173,7 +5370,7 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5191,7 +5388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14480051-102b-48bd-b177-7a0bf1fb4611")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 134.62 340.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5224,7 +5421,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131342.html"
 			(at 132.08 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5464,7 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5285,7 +5482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "293fcdb4-c50b-441d-afa8-84acfde777af")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 508 466.09 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5318,7 +5515,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131334.html"
 			(at 505.46 466.09 0)
 			(hide yes)
 			(show_name no)
@@ -5355,7 +5552,7 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -5373,7 +5570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d486a9e-ac66-4d1e-ad5f-67a0356faa2d")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 134.62 530.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5406,7 +5603,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131342.html"
 			(at 132.08 530.86 0)
 			(hide yes)
 			(show_name no)
@@ -5449,7 +5646,83 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J7")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 491.49 335.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a0355aa-41c8-4f31-a414-74a3b50ad379")
+		(property "Reference" "H4"
+			(at 494.03 334.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 494.03 336.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 491.49 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "M3"
+			(at 491.49 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 491.49 335.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -5606,6 +5879,82 @@
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 491.49 322.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e2ec7e3-2214-4e22-b4df-dd78e4ec2f8b")
+		(property "Reference" "H2"
+			(at 494.03 321.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 494.03 323.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 491.49 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "M3"
+			(at 491.49 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 491.49 322.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -5779,7 +6128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3366df3-3f02-43d8-a959-504fd593c7bd")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 134.62 378.46 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5812,7 +6161,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131342.html"
 			(at 132.08 378.46 0)
 			(hide yes)
 			(show_name no)
@@ -5855,7 +6204,7 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5873,7 +6222,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc67557e-6441-4f05-9c35-eb77529f6702")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 134.62 416.56 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5906,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131342.html"
 			(at 132.08 416.56 0)
 			(hide yes)
 			(show_name no)
@@ -5949,7 +6298,7 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5967,7 +6316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6ea3a8e-e571-4b28-a083-2361f9025674")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 134.62 454.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6000,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C131342.html"
 			(at 132.08 454.66 0)
 			(hide yes)
 			(show_name no)
@@ -6043,7 +6392,7 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6061,7 +6410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d69cbe5e-93e0-4695-a7d7-550dee95f2cc")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 501.65 518.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6092,7 +6441,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://en.wikipedia.org/wiki/JST_connector"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C158030.html"
 			(at 500.38 529.59 0)
 			(hide yes)
 			(show_name no)
@@ -6153,7 +6502,83 @@
 		(instances
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
-					(reference "J8")
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 491.49 328.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd7ded8c-0135-49d8-a8fc-352ea5c06f62")
+		(property "Reference" "H3"
+			(at 494.03 327.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 494.03 330.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 491.49 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "M3"
+			(at 491.49 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 491.49 328.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -6175,7 +6600,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "0202f8ef-d3c4-4874-a012-5b929fa7f153")
-		(property "Sheetname" "Transmitter"
+		(property "Sheetname" "Serializer"
 			(at 355.6 316.7884 0)
 			(show_name no)
 			(do_not_autoplace no)

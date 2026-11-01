@@ -3812,20 +3812,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "67dbf361-d50c-4b65-9d88-ce3bb7823bba")
+			(uuid "4b03d48b-061e-48b4-b0f9-6251941b2414")
 		)
 		(pin "2"
-			(uuid "2d888512-2ef5-43c3-a8df-f32fd299145b")
+			(uuid "fd4422ec-0396-4934-bd9e-3dfdc0c39a1b")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "D4")
 					(unit 1)
 				)
@@ -3906,17 +3900,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "09f865dc-9b0e-49fc-bcde-5ea86ff82001")
+			(uuid "a33eed25-fa1e-44b6-974f-db1dd3c1b67b")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#FLG02")
 					(unit 1)
 				)
@@ -3997,27 +3985,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "578c4060-dab1-4ef1-9a14-faf5e7e9a3ef")
+			(uuid "5c70c18f-794b-42c8-8e25-c34c4dd8138b")
 		)
 		(pin "2"
-			(uuid "d0768e16-fd21-4f46-9ae3-b844cb75acb9")
+			(uuid "7f5d0268-693c-4f22-a25a-6b3a8e1a0499")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C22")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C62")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -4090,24 +4072,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "b54f85e5-0480-4456-9882-2cffc8892cba")
+			(uuid "81c8a6b3-3675-48f6-9670-2597090de65b")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR021")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR090")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -4181,27 +4157,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "cb1deb25-65c2-4583-ac13-c334057ca6cf")
+			(uuid "beadcb21-79b6-4eb4-8352-e0266f465705")
 		)
 		(pin "1"
-			(uuid "4d586fba-3455-4514-aa86-5100ff4a009d")
+			(uuid "a8a17510-ca4e-485a-bd5f-685573d8eb67")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C24")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C24")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C64")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -4274,24 +4244,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "731e8d4f-a3cf-4ec3-bade-292864780781")
+			(uuid "4d99a1cc-ee09-44ce-a21a-9d6255c89943")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR091")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4364,24 +4328,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "921e0266-044d-4f2b-aa43-7580ad71272c")
+			(uuid "420080b2-6535-4f34-a8dd-5e910af1a070")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR020")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR089")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4455,27 +4413,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f4367a3-6058-47ce-bbfe-dc27f1a06b6b")
+			(uuid "a61390d3-2e2d-4e78-be61-bfba83bc3057")
 		)
 		(pin "1"
-			(uuid "2311bb45-44ca-4e8f-9658-7324264bda14")
+			(uuid "d581b38b-0cf5-4edb-bc8e-18a566cad6a5")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C19")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C19")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C59")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4549,24 +4501,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d249a40-ccb0-4185-bf89-f872a27f1718")
+			(uuid "fbb01316-235e-4d9c-8620-1168ab0a972e")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR012")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR081")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4640,27 +4586,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "07993dbe-d444-4e8f-939d-a2008fb801c7")
+			(uuid "142075e4-0668-46fb-9ced-fd981f493332")
 		)
 		(pin "1"
-			(uuid "258c464b-8dc2-4e5f-b149-38207c47328b")
+			(uuid "9ec3de34-cd57-4b80-a1e6-0d3a35978749")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C21")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C21")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C61")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -4734,24 +4674,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "fcd7033c-7060-4503-8526-9b68426bab93")
+			(uuid "871c50da-5e60-42be-87e6-98897bef1cec")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR085")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -4825,24 +4759,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "32251794-1708-4138-a6ce-111155b94839")
+			(uuid "9fd0073b-f2b1-43d0-bcf4-e1da15aff5ae")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR024")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR093")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4914,27 +4842,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c099433-640f-48ab-9e4a-1d5b21de40de")
+			(uuid "04c72b55-6a22-4704-a553-75226af15559")
 		)
 		(pin "1"
-			(uuid "d96803fd-13fe-42ff-ae7f-5f625e8c9ae1")
+			(uuid "c9982b61-c6d8-4860-8493-e86a7bbe7d69")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "R7")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "R92")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -5008,24 +4930,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "56ac0fc4-13c3-409d-a53c-0eb605982c43")
+			(uuid "9fb23b94-62fb-48f8-8fc5-3df5af05febb")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR023")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR092")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -5099,24 +5015,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0de7419-419c-46c6-87c1-9ec5ecf9976f")
+			(uuid "8abebdbb-28fa-41d0-baa1-16e53b0af385")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR088")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5190,27 +5100,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "a8225665-1365-4f5e-bcd2-edde1cad264b")
+			(uuid "296d3fb3-21c5-4287-aed1-57045cc7d5ad")
 		)
 		(pin "1"
-			(uuid "2cd1a9ea-cd46-4d93-8254-b3adc7f41614")
+			(uuid "cff6cafc-d1a4-4c6e-978f-7bf2ba9e19c6")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C25")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C65")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -5282,20 +5186,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "887c6dd2-0204-4813-a89f-4ab11a47d4d2")
+			(uuid "120062ba-1797-45b4-9527-34d58796ae04")
 		)
 		(pin "2"
-			(uuid "2206c9a3-dd33-41b1-b67f-590c30b4013d")
+			(uuid "b2fe05c4-dc11-487f-b11b-d77d77848e4a")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "F1")
 					(unit 1)
 				)
@@ -5376,27 +5274,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "df82d3cf-73e7-44b8-9f36-f3bdcdb94bc2")
+			(uuid "4ec8e1e3-8bfd-4485-b3ca-895cc4232234")
 		)
 		(pin "1"
-			(uuid "aafab81f-660b-49a6-8084-bb23e5a198e4")
+			(uuid "2171b982-e192-405b-b9a9-cc7fb3fd3226")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C26")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C66")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -5468,27 +5360,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "c7473460-1982-47db-8c70-6f46b6c2cefb")
+			(uuid "a3f88888-aaad-4b07-81ef-2ddf5420f1b2")
 		)
 		(pin "1"
-			(uuid "224acba8-f449-49f5-b342-5fdb26cbd990")
+			(uuid "73d07d0f-38bb-41b9-aa94-b30bbe37a9c1")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "R6")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "R91")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -5561,17 +5447,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "e10719a2-c394-4fec-a48e-22333d906567")
+			(uuid "3ac88a15-8571-4f5b-bdbb-fbbe6a5cd883")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#FLG03")
 					(unit 1)
 				)
@@ -5651,24 +5531,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb0c6612-e15a-48c6-bab2-9a5d8f17f8cd")
+			(uuid "562da57e-b5c5-4927-a06a-25bad0bc9563")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR018")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR087")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -5742,20 +5616,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "e54d1d10-ac10-42a7-a7f2-f68da2a2ae96")
+			(uuid "eb6c18a8-e320-4bae-b906-aa3bf5f347eb")
 		)
 		(pin "1"
-			(uuid "5c82a717-38d5-4f1e-a4ee-f02cc90a0907")
+			(uuid "d0733cce-b9ad-48b9-b7c4-a507f18051ec")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "D3")
 					(unit 1)
 				)
@@ -5836,20 +5704,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "16581976-3912-4831-ac55-12f7c4a98314")
+			(uuid "64273a2c-3f42-4f41-9d9d-3fbddd2b1ea9")
 		)
 		(pin "2"
-			(uuid "8bf8c134-72a5-4e7e-8806-c75835b709d5")
+			(uuid "699a1a33-0a1e-41f7-ac07-b8c2f4d8e8dc")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "D2")
 					(unit 1)
 				)
@@ -5930,27 +5792,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "fe70b0df-89bc-433d-b923-2457920ee7f9")
+			(uuid "94ef8b66-44ac-4b6c-a694-ca466772a7d4")
 		)
 		(pin "1"
-			(uuid "a0a1cc8e-50d1-47a9-9351-bdabb446f3aa")
+			(uuid "4a02b30d-9526-4a68-9b54-6da79da954a8")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C20")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C20")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C60")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -6022,33 +5878,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "8ae1f534-4a53-4e67-bfa3-6924c1474617")
+			(uuid "4cca0259-07c8-4087-9e6a-518053a17df8")
 		)
 		(pin "3"
-			(uuid "539e35ec-2640-459d-9fbd-821a6596982a")
+			(uuid "c357aa7a-ee29-45af-8465-ae75b9c0faf3")
 		)
 		(pin "2"
-			(uuid "81f8f193-84a1-4fb8-bb95-4859a8c8ea2c")
+			(uuid "9efde0f5-4767-4b55-a7d9-a3e7033445b4")
 		)
 		(pin "4"
-			(uuid "250bba47-dfa2-48cf-b96b-4e4f26fd8d92")
+			(uuid "9c645cc2-4e07-497d-b2a0-6f86da553d17")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "J9")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "J1")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -6121,24 +5971,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "77cac9dc-ec60-42d6-bb56-1f91bc7c498d")
+			(uuid "094bc46e-61b9-44da-9298-0bd657298a93")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR015")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR084")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -6210,42 +6054,36 @@
 			)
 		)
 		(pin "2"
-			(uuid "d4ec44bc-79a2-4eb0-8916-b8c076367d84")
+			(uuid "910013de-0ea0-4fa4-9906-4027c722417a")
 		)
 		(pin "7"
-			(uuid "856aa7ed-9e42-40ab-aaf7-c763b51d4b53")
+			(uuid "8723a370-0cfd-4df0-9be6-c9b593622fb7")
 		)
 		(pin "4"
-			(uuid "016cdd32-4bde-4961-bb95-bbe0f3bf3493")
+			(uuid "ed616b4e-6696-4122-ab47-a7fb332a3c4c")
 		)
 		(pin "3"
-			(uuid "292e29d8-46c8-4512-9175-d72a64e29038")
+			(uuid "c0edf722-3522-4b64-921f-f6fdb13d5349")
 		)
 		(pin "6"
-			(uuid "86b1a8d3-6278-4e1c-b9af-4c7ee508bb46")
+			(uuid "22a95010-fd58-4c75-be03-05a5079c939c")
 		)
 		(pin "1"
-			(uuid "37bce9b0-e996-4689-bb65-bfbf2a2bc251")
+			(uuid "043d12f7-9402-4412-98c9-248e00cd4a0f")
 		)
 		(pin "5"
-			(uuid "696c62be-f444-494c-a7ba-4254f138bd7b")
+			(uuid "6fcf6920-4a68-487f-ab92-5293b3e3fe8e")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "U3")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "U27")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6318,24 +6156,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "834dab10-5448-442a-a956-d79696efe12b")
+			(uuid "0e8e064f-1247-4245-9d03-bc808c9b2e4d")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR013")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR082")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -6408,17 +6240,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3a9f08b-4070-4f17-acee-11a9861b2ca8")
+			(uuid "facdc614-d02c-4e85-8f9e-2a5844b51604")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#FLG05")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#FLG05")
 					(unit 1)
 				)
@@ -6498,17 +6324,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b7eba77-7f2a-4bc7-88b3-f521549b3b26")
+			(uuid "65a568f2-8ee8-4917-9921-d1acb2574bc3")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#FLG04")
 					(unit 1)
 				)
@@ -6589,24 +6409,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f6a6f83-d8ce-47c3-bcfc-b8b742fd9eb6")
+			(uuid "019bc8cf-e1d8-46c5-b2f7-40f34152208d")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR083")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6678,27 +6492,21 @@
 			)
 		)
 		(pin "1"
-			(uuid "e0cfeade-c454-4bce-860b-0ae9c4032fa6")
+			(uuid "fca14b01-6e60-4965-88aa-d88ef7c95909")
 		)
 		(pin "2"
-			(uuid "aeaa7a66-b5ba-4225-9cb6-b3daa04b1faa")
+			(uuid "a93e5301-4ef5-47ce-b089-7b17ba676815")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "C23")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "C23")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "C63")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -6770,27 +6578,21 @@
 			)
 		)
 		(pin "2"
-			(uuid "4adc7d52-8867-45d5-9f00-b5c7d2f9552a")
+			(uuid "a83dffef-361d-45cc-8c85-d1ecd500ac7e")
 		)
 		(pin "1"
-			(uuid "1a1c793a-3aca-4503-a860-65e84cd300fc")
+			(uuid "fd7797e6-983d-4959-a06b-aa47c3cc58c0")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "R8")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "R93")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6862,48 +6664,42 @@
 			)
 		)
 		(pin "8"
-			(uuid "61030266-2587-42ce-a5d5-fa21d2c24123")
+			(uuid "7e932c33-92b0-4662-a46d-b8d7999bc63f")
 		)
 		(pin "1"
-			(uuid "7e24c3f4-2d4a-46ee-ab09-7e97a29dcc2c")
+			(uuid "64d7b15e-8ab6-414b-9146-f7ce01f3482b")
 		)
 		(pin "2"
-			(uuid "207f128b-bf8a-40c3-8f9a-592df3a499ac")
+			(uuid "4b3d9187-4182-44ed-9792-887226795486")
 		)
 		(pin "3"
-			(uuid "7e0425d8-8b0b-4d30-bdd9-d4b5ba63f396")
+			(uuid "e676d772-bfb1-44bc-a3c4-3ed169774972")
 		)
 		(pin "7"
-			(uuid "8c84dd17-9041-4730-9afb-1d7eeb8c3e75")
+			(uuid "fc228a18-f1ef-4a7a-a83a-6695c27f635e")
 		)
 		(pin "6"
-			(uuid "e1ac564f-0c8a-43aa-bc48-144a2254c7d8")
+			(uuid "7f8f1c99-4454-45bc-839f-0cc0aa958949")
 		)
 		(pin "9"
-			(uuid "6db22ddc-f8a4-4ddc-9995-1c6d3ac9a8bc")
+			(uuid "7fdb3cf6-4a12-4430-ae01-2d23e9ebce6a")
 		)
 		(pin "4"
-			(uuid "255565e9-d698-40c5-85ef-8da486c5ae8d")
+			(uuid "0e5e9860-9428-464e-9612-c4083451772b")
 		)
 		(pin "5"
-			(uuid "6dd8a988-ea0b-4eed-b2ef-3e149e626716")
+			(uuid "d0d152d8-c16a-4882-9e98-9f080de580e0")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "U2")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "U26")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -6975,20 +6771,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b9cd8b77-a677-4418-8c71-4f0ceee99955")
+			(uuid "67909403-4e96-4d10-9c3e-593e82f698e4")
 		)
 		(pin "2"
-			(uuid "07617d77-3b71-4474-a4c0-0e3b1cb1c825")
+			(uuid "a2e7ccc1-e172-47aa-9ef8-a01175e91346")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "L2")
 					(unit 1)
 				)
@@ -7069,24 +6859,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6ca09bc-798c-413b-9467-392429919e83")
+			(uuid "7d0d3cf3-6cc0-4c4a-9064-7ec950d4d2b1")
 		)
 		(instances
-			(project "transmitter"
-				(path "/160bc021-7170-4ef0-8809-e0572df97a97/bd2dd73c-082c-4c50-b7cc-f95f96dd5ee7"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-			(project "receiver"
-				(path "/aa707d8b-0611-4fad-96c8-24f86e3803c6/a1d6a337-2e8a-43ea-ba5e-a348529c05d7"
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
 					(reference "#PWR017")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "#PWR086")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

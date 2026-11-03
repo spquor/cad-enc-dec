@@ -8320,6 +8320,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 71.12 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "07f68f7c-e9ec-4706-a54b-76877de1c74c")
+		(property "Reference" "R201"
+			(at 69.088 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 71.0602 142.797 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 72.898 144.78 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "270Ω 75V Thick Film 1%"
+			(at 71.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 71.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fdb71bd3-9321-4626-8e77-6b7d99288bfa")
+		)
+		(pin "2"
+			(uuid "84e743cf-ab47-457b-8e87-f36484172be1")
+		)
+		(instances
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/bb0f2aad-15c9-43f8-bba4-da91c720339c"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
+					(reference "R201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32H7:STM32H723ZGTx")
 		(at 149.86 222.25 0)
 		(unit 1)
@@ -8329,10 +8415,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "143799e9-273b-4fc2-b83c-769e8ca046fd")
 		(property "Reference" "U201"
-			(at 154.5941 311.15 0)
+			(at 153.924 312.674 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8343,7 +8428,7 @@
 			)
 		)
 		(property "Value" "STM32H723ZGT"
-			(at 154.5941 313.69 0)
+			(at 153.924 315.214 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9790,92 +9875,6 @@
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
 					(reference "C216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 71.12 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7b0a338f-c46b-4654-86c4-33e4f73ca920")
-		(property "Reference" "R201"
-			(at 69.088 144.78 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 71.0395 142.8887 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 72.898 144.78 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "10kΩ 75V Thick Film 1%"
-			(at 71.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b4749099-bf19-4783-bf38-c4e532feb145")
-		)
-		(pin "1"
-			(uuid "2eaed6bd-4227-4047-9df7-e7e27d7fe618")
-		)
-		(instances
-			(project "digital_exp"
-				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/bb0f2aad-15c9-43f8-bba4-da91c720339c"
-					(reference "R201")
-					(unit 1)
-				)
-			)
-			(project "analog_exp"
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
-					(reference "R201")
 					(unit 1)
 				)
 			)

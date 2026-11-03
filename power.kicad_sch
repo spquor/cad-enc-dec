@@ -5295,92 +5295,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 106.68 69.85 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72bd9576-6ee3-4bb9-a340-21f093229216")
-		(property "Reference" "R301"
-			(at 104.648 69.85 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 106.5995 67.9587 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 108.458 69.85 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "10kΩ 75V Thick Film 1%"
-			(at 106.68 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a3f88888-aaad-4b07-81ef-2ddf5420f1b2")
-		)
-		(pin "1"
-			(uuid "73d07d0f-38bb-41b9-aa94-b30bbe37a9c1")
-		)
-		(instances
-			(project "digital_exp"
-				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
-					(reference "R301")
-					(unit 1)
-				)
-			)
-			(project "analog_exp"
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
-					(reference "R301")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 83.82 121.92 0)
 		(unit 1)
@@ -5983,6 +5897,91 @@
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a7207020-52af-4418-8a2a-368d69050860")
+		(property "Reference" "R301"
+			(at 104.648 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K5"
+			(at 106.68 69.85 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 108.458 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "1.5kΩ 75V Thick Film 1%"
+			(at 106.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c376858b-b118-46c4-bd6f-4af26dbb7ca1")
+		)
+		(pin "1"
+			(uuid "1f465d27-ae08-4428-a7d4-a30dd534e1bf")
+		)
+		(instances
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/7695e4d6-72ad-4102-b4ff-aeb64df488ea"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/aeb3bd87-0ce7-4cec-bab4-d4df9ad2d1ca"
+					(reference "R301")
 					(unit 1)
 				)
 			)

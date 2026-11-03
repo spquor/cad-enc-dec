@@ -5170,6 +5170,12 @@
 		(uuid "db6d4063-7997-471b-8b3d-898bdf326fdd")
 	)
 	(junction
+		(at 95.25 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1d12dbe-d7ef-4052-90cd-84e1e6075068")
+	)
+	(junction
 		(at 81.28 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6581,16 +6587,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 148.59) (xy 93.98 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "949405a0-4717-47d0-b6ca-341dc7f3c122")
-	)
-	(wire
-		(pts
 			(xy 101.6 138.43) (xy 111.76 138.43)
 		)
 		(stroke
@@ -6808,6 +6804,16 @@
 			(type default)
 		)
 		(uuid "b2fe63e8-98c4-4a70-866a-8072baf98e8c")
+	)
+	(wire
+		(pts
+			(xy 81.28 148.59) (xy 111.76 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f0fa36-60d6-446c-9115-370f774e3a68")
 	)
 	(wire
 		(pts
@@ -7098,16 +7104,6 @@
 			(type default)
 		)
 		(uuid "eb2fe305-bed2-4c8f-b547-793acdcaf843")
-	)
-	(wire
-		(pts
-			(xy 101.6 148.59) (xy 111.76 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebe6bc57-f8fa-4a1d-a3cc-40d10430c1bb")
 	)
 	(wire
 		(pts
@@ -9639,7 +9635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "77da0f8d-f3e7-42b0-bbcc-eb2aaa37777f")
-		(property "Reference" "#FLG0201"
+		(property "Reference" "#FLG0202"
 			(at 169.545 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9700,13 +9696,13 @@
 		(instances
 			(project "digital_exp"
 				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/bb0f2aad-15c9-43f8-bba4-da91c720339c"
-					(reference "#FLG0201")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
-					(reference "#FLG0201")
+					(reference "#FLG0202")
 					(unit 1)
 				)
 			)
@@ -9886,6 +9882,89 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 95.25 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "810342a8-d024-48a4-b0ad-d437c6ba3c75")
+		(property "Reference" "#FLG0201"
+			(at 95.25 146.685 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 101.6 146.812 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 95.25 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8969de9a-a8a5-419e-9d53-ce738df351ff")
+		)
+		(instances
+			(project "digital_exp"
+				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/bb0f2aad-15c9-43f8-bba4-da91c720339c"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
+					(reference "#FLG0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 190.5 106.68 0)
 		(unit 1)
@@ -9983,7 +10062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "91e1c192-ac27-4f86-837d-f918a166e58c")
-		(property "Reference" "R205"
+		(property "Reference" "R204"
 			(at 97.79 151.638 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10045,13 +10124,13 @@
 		(instances
 			(project "digital_exp"
 				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/bb0f2aad-15c9-43f8-bba4-da91c720339c"
-					(reference "R205")
+					(reference "R204")
 					(unit 1)
 				)
 			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
-					(reference "R205")
+					(reference "R204")
 					(unit 1)
 				)
 			)
@@ -10395,91 +10474,6 @@
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
 					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 148.59 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cd31ffac-85be-4eea-a947-c3de17bd76dd")
-		(property "Reference" "R204"
-			(at 97.79 146.558 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 97.79 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 150.368 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "0Ω 75V Thick Film 1%"
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1736f41c-6521-4c1a-8df6-6d20ed73d69f")
-		)
-		(pin "1"
-			(uuid "b57eaceb-babc-486f-9280-5da276832f62")
-		)
-		(instances
-			(project "digital_exp"
-				(path "/26b8f639-0bc4-4192-9625-ecc0063d8e78/bb0f2aad-15c9-43f8-bba4-da91c720339c"
-					(reference "R204")
-					(unit 1)
-				)
-			)
-			(project "analog_exp"
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/0202f8ef-d3c4-4874-a012-5b929fa7f153"
-					(reference "R204")
 					(unit 1)
 				)
 			)

@@ -80014,7 +80014,7 @@
 				)
 			)
 		)
-		(property "Value" "SMAJ28A"
+		(property "Value" "SMAJ28CA"
 			(at 0 2.6 0)
 			(layer "F.Fab")
 			(uuid "400e2ff0-a079-47d8-9ca7-ab426688df14")
@@ -80025,7 +80025,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C148227.html"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C148228.html"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80038,7 +80038,7 @@
 				)
 			)
 		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 28.0Vr, SMA(DO-214AC)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -80052,7 +80052,7 @@
 			)
 		)
 		(property ki_fp_filters "D*SMA*")
-		(path "/7695e4d6-72ad-4102-b4ff-aeb64df488ea/82f52193-939e-471e-8873-7b89efea9b45")
+		(path "/7695e4d6-72ad-4102-b4ff-aeb64df488ea/1ae38ccf-cb54-4fee-922d-17bc4b65b8e1")
 		(sheetname "/Power Supply/")
 		(sheetfile "power.kicad_sch")
 		(units
@@ -80249,7 +80249,7 @@
 			(size 2.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
-			(net "VDD")
+			(net "GND")
 			(pinfunction "A1_1")
 			(pintype "passive")
 			(uuid "3396dc27-c171-4eb8-9d2e-37ccbfc794da")
@@ -80259,7 +80259,7 @@
 			(size 2.5 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.1388888889)
-			(net "GND")
+			(net "VDD")
 			(pinfunction "A2_2")
 			(pintype "passive")
 			(uuid "c4214a34-5197-47bb-ac47-e6d5cb4ef6b3")

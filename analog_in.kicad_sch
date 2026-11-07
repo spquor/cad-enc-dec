@@ -1776,7 +1776,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5d38829c-1ccb-4aa6-81de-7010158211fd")
-		(property "Reference" "R1004"
+		(property "Reference" "R504"
 			(at 132.08 137.668 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1848,23 +1848,23 @@
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
-					(reference "R1004")
+					(reference "R804")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
-					(reference "R1004")
+					(reference "R504")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
-					(reference "R1004")
+					(reference "R904")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
-					(reference "R1004")
+					(reference "R704")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
-					(reference "R1004")
+					(reference "R604")
 					(unit 1)
 				)
 			)
@@ -1985,7 +1985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e180a8a-e9b0-4eb6-8879-9fc2a3d6447d")
-		(property "Reference" "R1003"
+		(property "Reference" "R503"
 			(at 132.08 132.588 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2057,23 +2057,23 @@
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
-					(reference "R1003")
+					(reference "R803")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
-					(reference "R1003")
+					(reference "R503")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
-					(reference "R1003")
+					(reference "R903")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
-					(reference "R1003")
+					(reference "R703")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
-					(reference "R1003")
+					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -2523,7 +2523,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e462290b-c40c-4dd3-8252-bd88d16502c7")
-		(property "Reference" "R1002"
+		(property "Reference" "R502"
 			(at 132.08 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2595,23 +2595,23 @@
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
-					(reference "R1002")
+					(reference "R802")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
-					(reference "R1002")
+					(reference "R502")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
-					(reference "R1002")
+					(reference "R902")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
-					(reference "R1002")
+					(reference "R702")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
-					(reference "R1002")
+					(reference "R602")
 					(unit 1)
 				)
 			)

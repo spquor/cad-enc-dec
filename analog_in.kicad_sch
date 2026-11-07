@@ -1197,6 +1197,12 @@
 			(uuid "291b7de5-d9fe-432a-b091-c081d95d32c1")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "#PWR01002")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "#PWR01002")
@@ -1295,6 +1301,12 @@
 			(uuid "c84595d0-7066-41c2-b401-c90cef36734b")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "#PWR01001")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "#PWR01001")
@@ -1393,6 +1405,12 @@
 			(uuid "9b3b1c61-32e2-4c6c-8ced-52277a922905")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "#PWR01005")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "#PWR01005")
@@ -1491,6 +1509,12 @@
 			(uuid "8e62c7ea-7da6-4f10-9367-08d48e44de6a")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "#PWR01006")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "#PWR01006")
@@ -1602,6 +1626,12 @@
 			(uuid "57d52d84-c330-4d95-8b21-a01b3e66d028")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "U1001")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "U1001")
@@ -1651,7 +1681,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 132.08 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,7 +1702,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "100Ω 75V Thick Film 1%"
+		(property "Datasheet" "0Ω 75V Thick Film 1%"
 			(at 132.08 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -1701,6 +1731,12 @@
 			(uuid "8f703364-b2be-4c0a-a075-1a32abbaefd8")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "R1001")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "R1001")
@@ -1724,6 +1760,111 @@
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
 					(reference "R601")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5d38829c-1ccb-4aa6-81de-7010158211fd")
+		(property "Reference" "R1004"
+			(at 132.08 137.668 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 132.08 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 132.08 141.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "0Ω 75V Thick Film 1%"
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "95355c8d-09dd-408a-82c3-4be362523ecc")
+		)
+		(pin "2"
+			(uuid "60d64c6d-380c-409e-b809-53967edd0a16")
+		)
+		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "R1004")
+					(unit 1)
+				)
+			)
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
+					(reference "R1004")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
+					(reference "R1004")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
+					(reference "R1004")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
+					(reference "R1004")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
+					(reference "R1004")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
+					(reference "R1004")
 					(unit 1)
 				)
 			)
@@ -1799,6 +1940,12 @@
 			(uuid "c4c58080-2d81-4a6f-a610-ffac1f2ad539")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "#PWR01004")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "#PWR01004")
@@ -1822,6 +1969,111 @@
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
 					(reference "#PWR0604")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 134.62 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e180a8a-e9b0-4eb6-8879-9fc2a3d6447d")
+		(property "Reference" "R1003"
+			(at 132.08 132.588 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 132.08 134.62 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 132.08 136.398 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "0Ω 75V Thick Film 1%"
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3944c5d6-0141-44bd-b4f8-9f0c4bc8b876")
+		)
+		(pin "2"
+			(uuid "f2bbbd48-e9c3-4a86-a52b-3b88cde6ef17")
+		)
+		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "R1003")
+					(unit 1)
+				)
+			)
+			(project "analog_exp"
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
+					(reference "R1003")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
+					(reference "R1003")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
+					(reference "R1003")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
+					(reference "R1003")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
+					(reference "R1003")
+					(unit 1)
+				)
+				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
+					(reference "R1003")
 					(unit 1)
 				)
 			)
@@ -1897,6 +2149,12 @@
 			(uuid "b8c31eb9-1a39-4a5f-ae28-8e61c4d5e596")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "#PWR01003")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "#PWR01003")
@@ -1920,105 +2178,6 @@
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
 					(reference "#PWR0603")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 134.62 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f036fc2-310f-4878-98a5-be38fd97f8f3")
-		(property "Reference" "R503"
-			(at 132.08 132.588 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 132.08 134.62 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.08 136.398 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "100Ω 75V Thick Film 1%"
-			(at 132.08 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7bf3409-7e5a-45db-88d2-d73d55f60b0e")
-		)
-		(pin "2"
-			(uuid "6b5d65c0-7f65-479e-b0c7-40dc4960b211")
-		)
-		(instances
-			(project "analog_exp"
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
-					(reference "R1003")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
-					(reference "R803")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
-					(reference "R503")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
-					(reference "R903")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
-					(reference "R703")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
-					(reference "R603")
 					(unit 1)
 				)
 			)
@@ -2096,6 +2255,12 @@
 			(uuid "d256d7db-ad77-4b07-8ba5-210f8a15ddde")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "C1002")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "C1002")
@@ -2207,6 +2372,12 @@
 			(uuid "66ee767f-5f10-4732-b7b3-737e17c035cd")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "U1002")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "U1002")
@@ -2307,6 +2478,12 @@
 			(uuid "b51eb1b5-97dd-45a3-b223-7ac60e5b0d00")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "C1001")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "C1001")
@@ -2345,8 +2522,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d6c6b52f-5806-4de9-bf1b-e64ee2431213")
-		(property "Reference" "R502"
+		(uuid "e462290b-c40c-4dd3-8252-bd88d16502c7")
+		(property "Reference" "R1002"
 			(at 132.08 64.008 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2356,7 +2533,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0"
 			(at 132.08 66.04 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2377,7 +2554,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "100Ω 75V Thick Film 1%"
+		(property "Datasheet" "0Ω 75V Thick Film 1%"
 			(at 132.08 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -2399,138 +2576,50 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "8a84d289-1dad-4a9e-9e16-9b5ef1faa056")
-		)
 		(pin "1"
-			(uuid "9d4b7dd0-4252-49fb-98ab-a801453bb19c")
+			(uuid "8afa486d-6207-4193-8abb-bad3e392bd20")
+		)
+		(pin "2"
+			(uuid "3b39c3a2-c63d-4dba-b57e-4d759b4efe8d")
 		)
 		(instances
+			(project "analog_in"
+				(path "/ade3d802-9557-4b3b-8001-25130e53f83b"
+					(reference "R1002")
+					(unit 1)
+				)
+			)
 			(project "analog_exp"
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
 					(reference "R1002")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
-					(reference "R802")
+					(reference "R1002")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
-					(reference "R502")
+					(reference "R1002")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
-					(reference "R902")
+					(reference "R1002")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
-					(reference "R702")
+					(reference "R1002")
 					(unit 1)
 				)
 				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
-					(reference "R602")
+					(reference "R1002")
 					(unit 1)
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 139.7 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fc4029d5-3335-421f-b66e-1123b34a5b31")
-		(property "Reference" "R504"
-			(at 132.08 137.668 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 132.08 139.7 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 132.08 141.478 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "100Ω 75V Thick Film 1%"
-			(at 132.08 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "624beafb-b8fd-45e9-9900-433ce65b9ee3")
-		)
-		(pin "1"
-			(uuid "e210b526-bde0-4b6d-80dd-7cdc9996f87e")
-		)
-		(instances
-			(project "analog_exp"
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/1b073669-8a5c-4bcd-86b7-a8b3184403d6"
-					(reference "R1004")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/5096c202-6875-4fec-8cba-c19e3b4a767c"
-					(reference "R804")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/81d02c5c-b18e-4311-a908-a0b93a225245"
-					(reference "R504")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/8ed18572-9225-447b-8398-983e044e7838"
-					(reference "R904")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/cd0bcc56-95fd-495d-b037-affc0fa496e6"
-					(reference "R704")
-					(unit 1)
-				)
-				(path "/c77a085b-f0eb-4acf-9f36-7e73894837d0/dcbce613-ee83-4690-8c01-089f7a7762ec"
-					(reference "R604")
-					(unit 1)
-				)
-			)
+	(sheet_instances
+		(path "/"
+			(page "1")
 		)
 	)
 )

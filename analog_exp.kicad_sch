@@ -6252,7 +6252,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH S6B"
+		(property "Value" "JST PH B6B"
 			(at 96.52 495.3 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6346,7 +6346,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH S6B"
+		(property "Value" "JST PH B6B"
 			(at 96.52 342.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7011,7 +7011,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH S6B"
+		(property "Value" "JST PH B6B"
 			(at 96.52 533.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +8437,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH S6B"
+		(property "Value" "JST PH B6B"
 			(at 96.52 381 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8692,7 +8692,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH S6B"
+		(property "Value" "JST PH B6B"
 			(at 96.52 419.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8864,7 +8864,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST PH S6B"
+		(property "Value" "JST PH B6B"
 			(at 96.52 457.2 0)
 			(show_name no)
 			(do_not_autoplace no)
